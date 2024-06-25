@@ -66,3 +66,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.nav__wrapper__ul {
+  display: flex;
+  list-style: none;
+}
