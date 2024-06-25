@@ -1,4 +1,4 @@
-.raleway-regular, body {
+.raleway-regular, body, .raleway-italic-regular, .raleway-italic-light, .raleway-black, .raleway-extrabold, .raleway-bold, .raleway-semibold, .raleway-medium {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -6,50 +6,42 @@
 }
 
 .raleway-medium {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 500;
-  font-style: normal;
 }
 
 .raleway-semibold {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 600;
-  font-style: normal;
 }
 
 .raleway-bold {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 700;
-  font-style: normal;
 }
 
 .raleway-extrabold {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 800;
-  font-style: normal;
 }
 
 .raleway-black {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 900;
-  font-style: normal;
+}
+
+.raleway-italic-regular, .raleway-italic-light {
+  font-weight: 400;
+  font-style: italic;
 }
 
 .raleway-italic-light {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 300;
-  font-style: italic;
 }
 
-.raleway-italic-regular {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: italic;
+html {
+  font-size: 10px;
+}
+
+body {
+  line-height: 1.5;
+}
+
+p {
+  font-size: 1.5rem;
 }
