@@ -1,3 +1,6 @@
-// import base modules
+// base modules
 @use 'scss/base/typography';
 @use 'scss/base/reset';
+
+// components
+@use 'scss/components/nav';
