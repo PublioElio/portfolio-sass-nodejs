@@ -1,4 +1,4 @@
-.raleway-regular, body {
+.raleway-regular {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -52,4 +52,8 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: italic;
+}
+
+body {
+  @extend .raleway-regular;
 }

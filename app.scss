@@ -1,4 +1,2 @@
-$red: red;
-body {
-    background: $red;
-}
+// import base modules
+@use 'scss/base/typography';
