@@ -1,4 +1,4 @@
-.raleway-regular, body, .raleway-italic-regular, .raleway-italic-light, .raleway-black, .raleway-extrabold, .raleway-bold, .raleway-semibold, .raleway-medium {
+.raleway-regular, body, .raleway-italic-regular, .raleway-italic-light, .raleway-black, .raleway-extrabold, .raleway-bold, .raleway-semibold, .nav__wrapper__logo__brand, .nav__wrapper__ul__li__a, .raleway-medium {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -9,7 +9,7 @@
   font-weight: 500;
 }
 
-.raleway-semibold {
+.raleway-semibold, .nav__wrapper__logo__brand, .nav__wrapper__ul__li__a {
   font-weight: 600;
 }
 
@@ -66,7 +66,39 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.nav__wrapper__logo__brand {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  color: #000;
+  position: relative;
+}
+.nav__wrapper__logo__brand:after {
+  position: absolute;
+  content: "";
+  right: -1rem;
+  bottom: 0.6rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  background: #3b82f6;
+  border-radius: 50%;
+  box-shadow: 0.2rem 0.2rem #bfdbfe;
+}
 .nav__wrapper__ul {
   display: flex;
   list-style: none;
+}
+.nav__wrapper__ul__li__a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #000;
+  font-size: 1.4rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.nav__wrapper__ul__li:first-child .nav__wrapper__ul__li__a {
+  color: #3b82f6;
+}
+.nav__wrapper__ul__li:last-child .nav__wrapper__ul__li__a {
+  padding-right: 0;
 }

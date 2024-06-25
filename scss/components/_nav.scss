@@ -1,4 +1,5 @@
 @use "../abstracts/colors" as *;
+@use "../base/typography" as *;
 
 .nav {
   width: 100%;
@@ -16,14 +17,47 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    &__ul {
-        display: flex;
-        list-style: none;
-        &__li{
-            &__a{
-                
-            }
+    &__logo {
+      &__brand {
+        @extend .raleway-semibold;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 2.5rem;
+        color: $black;
+        position: relative;
+        &:after {
+          position: absolute;
+          content: "";
+          right: -1rem;
+          bottom: .6rem;
+          width: .8rem;
+          height: .8rem;
+          background: $blue-500;
+          border-radius: 50%;
+          box-shadow: .2rem .2rem $blue-200;
         }
+      }
+    }
+    &__ul {
+      display: flex;
+      list-style: none;
+      &__li {
+        &__a {
+          @extend .raleway-semibold;
+          text-decoration: none;
+          text-transform: capitalize;
+          color: $black;
+          font-size: 1.4rem;
+          padding-left: 1.5rem;
+          padding-right: 1.5rem;
+        }
+        &:first-child &__a {
+          color: $blue-500;
+        }
+        &:last-child &__a {
+          padding-right: 0;
+        }
+      }
     }
   }
 }
