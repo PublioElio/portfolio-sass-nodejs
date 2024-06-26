@@ -1,3 +1,4 @@
+@use "sass:math";
 @use "../abstracts" as *;
 
 .container {
@@ -9,21 +10,16 @@
   margin-right: auto;
 }
 
-// Media queries
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media (min-width: 1200px) {
-  body {
-    background: green;
-  }
-}
-
-@media (max-width: 1200px) {
-  body {
-    background: red;
-  }
-}
-
-@media (max-width: 992px) {
-  body {
-    background: orange;
+  @for $i from 1 through 12 {
+    .col-xlg-#{$i} {
+      flex-basis: math.div(100%, 12) * $i;
+      max-width: math.div(100%, 12) * $i;
+    }
   }
 }
