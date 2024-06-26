@@ -73,11 +73,11 @@ body {
   color: #000;
   position: relative;
 }
-.nav__wrapper__logo__brand:after {
+.nav__wrapper__logo__brand::after {
   position: absolute;
-  content: "";
   right: -1rem;
   bottom: 0.6rem;
+  content: "";
   width: 0.8rem;
   height: 0.8rem;
   background: #3b82f6;

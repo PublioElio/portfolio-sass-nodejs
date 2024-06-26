@@ -1,22 +1,18 @@
 @use "../abstracts/colors" as *;
+@use "../abstracts/mixings" as *;
 @use "../base/typography" as *;
 
 .nav {
   width: 100%;
   height: 7rem;
   background: $white;
-  position: fixed;
-  top: 0;
-  left: 0;
+  @include position(fixed, 0, null, null, 0);
   border-bottom: 0.1rem solid $gray-100;
-  display: flex;
-  justify-content: center;
+  @include flexBox(center, null);
   &__wrapper {
     width: 100%;
     max-width: 120rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flexBox(space-between, center);
     &__logo {
       &__brand {
         @extend .raleway-semibold;
@@ -25,16 +21,15 @@
         font-size: 2.5rem;
         color: $black;
         position: relative;
-        &:after {
-          position: absolute;
+        // this class creates de dot after the name
+        &::after {
+          @include position(absolute, null, -1rem, 0.6rem, null);
           content: "";
-          right: -1rem;
-          bottom: .6rem;
-          width: .8rem;
-          height: .8rem;
+          width: 0.8rem;
+          height: 0.8rem;
           background: $blue-500;
           border-radius: 50%;
-          box-shadow: .2rem .2rem $blue-200;
+          box-shadow: 0.2rem 0.2rem $blue-200;
         }
       }
     }
