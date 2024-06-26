@@ -15,9 +15,20 @@
   flex-wrap: wrap;
 }
 
+// xlg: 1200px and above
 @media (min-width: 1200px) {
   @for $i from 1 through 12 {
     .col-xlg-#{$i} {
+      flex-basis: math.div(100%, 12) * $i;
+      max-width: math.div(100%, 12) * $i;
+    }
+  }
+}
+
+// lg: max 1200px screens
+@media (max-width: 1200px) {
+  @for $i from 1 through 12 {
+    .col-lg-#{$i} {
       flex-basis: math.div(100%, 12) * $i;
       max-width: math.div(100%, 12) * $i;
     }
