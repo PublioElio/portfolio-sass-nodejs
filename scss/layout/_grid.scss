@@ -1,0 +1,29 @@
+@use "../abstracts" as *;
+
+.container {
+  width: 100%;
+  max-width: $maxWidth;
+  padding-left: $gutter;
+  padding-right: $gutter;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Media queries
+@media (min-width: 1200px) {
+  body {
+    background: green;
+  }
+}
+
+@media (max-width: 1200px) {
+  body {
+    background: red;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    background: orange;
+  }
+}
