@@ -9,7 +9,9 @@
   @include flexBox(center, null);
   &__wrapper {
     width: 100%;
-    max-width: 120rem;
+    max-width: $maxWidth;
+    padding-left: $gutter;
+    padding-right: $gutter;
     @include flexBox(space-between, center);
     &__logo {
       &__brand {
@@ -41,8 +43,8 @@
           text-transform: capitalize;
           color: $black;
           font-size: 1.4rem;
-          padding-left: 1.5rem;
-          padding-right: 1.5rem;
+          padding-left: $gutter;
+          padding-right: $gutter;
         }
         &:first-child &__a {
           color: $blue-500;
