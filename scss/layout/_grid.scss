@@ -15,7 +15,7 @@
   flex-wrap: wrap;
 }
 
-// xlg: 1200px and above
+// Extra-large(xlg): 1200px and above
 @media (min-width: 1200px) {
   @for $i from 1 through 12 {
     .col-xlg-#{$i} {
@@ -25,7 +25,7 @@
   }
 }
 
-// lg: max 1200px screens
+// Large(lg): max 1199px screens
 @media (max-width: 1200px) {
   @for $i from 1 through 12 {
     .col-lg-#{$i} {
@@ -34,3 +34,14 @@
     }
   }
 }
+
+// Medium screens (md): max 992px screens
+@media (max-width: 992px) {
+  @for $i from 1 through 12 {
+    .col-md-#{$i} {
+      flex-basis: math.div(100%, 12) * $i;
+      max-width: math.div(100%, 12) * $i;
+    }
+  }
+}
+
