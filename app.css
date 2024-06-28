@@ -90,11 +90,6 @@ body {
   display: flex;
   list-style: none;
 }
-@media (max-width: 768px) {
-  .nav__wrapper__ul {
-    background: orange;
-  }
-}
 .nav__wrapper__ul__li__a {
   text-decoration: none;
   text-transform: capitalize;

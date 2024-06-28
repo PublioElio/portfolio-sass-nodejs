@@ -1,4 +1,5 @@
 @use "sass:math";
+@use "variables" as *;
 
 @mixin flexBox($x, $y) {
   display: flex;
@@ -19,6 +20,22 @@
     .col-#{$key}-#{$i} {
       flex-basis: math.div(100%, 12) * $i;
       max-width: math.div(100%, 12) * $i;
+    }
+  }
+}
+
+@mixin responsive($screen) {
+  @if $screen == lg {
+    @media (max-width: map-get($breakPoints, "lg")) {
+    }
+  } @else if $screen == md {
+    @media (max-width: map-get($breakPoints, "md")) {
+    }
+  } @else if $screen == sm {
+    @media (max-width: map-get($breakPoints, "sm")) {
+    }
+  } @else if $screen == xsm {
+    @media (max-width: map-get($breakPoints, "xsm")) {
     }
   }
 }

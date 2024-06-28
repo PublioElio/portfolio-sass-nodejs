@@ -37,9 +37,6 @@
     &__ul {
       display: flex;
       list-style: none;
-      @media (max-width: 768px) {
-        background: orange;
-      }
       &__li {
         &__a {
           @extend .raleway-semibold;
