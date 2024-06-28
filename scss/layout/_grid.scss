@@ -15,53 +15,15 @@
   flex-wrap: wrap;
 }
 
-// Extra-large(xlg): 1200px and above
-@media (min-width: 1200px) {
-  @for $i from 1 through 12 {
-    .col-xlg-#{$i} {
-      flex-basis: math.div(100%, 12) * $i;
-      max-width: math.div(100%, 12) * $i;
+@each $key, $value in $breakPoints {
+  @if $key == xlg {
+    @media (min-width: $value) {
+      @include generate-columns($key, $value);
+    }
+  }
+  @else {
+    @media (max-width: $value) {
+      @include generate-columns($key, $value);
     }
   }
 }
-
-// Large(lg): max 1200px screens
-@media (max-width: 1200px) {
-  @for $i from 1 through 12 {
-    .col-lg-#{$i} {
-      flex-basis: math.div(100%, 12) * $i;
-      max-width: math.div(100%, 12) * $i;
-    }
-  }
-}
-
-// Medium screens (md): max 992px screens
-@media (max-width: 992px) {
-  @for $i from 1 through 12 {
-    .col-md-#{$i} {
-      flex-basis: math.div(100%, 12) * $i;
-      max-width: math.div(100%, 12) * $i;
-    }
-  }
-}
-
-// Small screens (sm): up to 768px screens
-@media (max-width: 768px) {
-  @for $i from 1 through 12 {
-    .col-sm-#{$i} {
-      flex-basis: math.div(100%, 12) * $i;
-      max-width: math.div(100%, 12) * $i;
-    }
-  }
-}
-
-// Extra small screens (xsm): up to 480px screens
-@media (max-width: 480px) {
-  @for $i from 1 through 12 {
-    .col-xsm-#{$i} {
-      flex-basis: math.div(100%, 12) * $i;
-      max-width: math.div(100%, 12) * $i;
-    }
-  }
-}
-
