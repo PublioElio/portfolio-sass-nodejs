@@ -14,7 +14,7 @@
   left: $left;
 }
 
-@mixin generate-columns($key, $value) {
+@mixin generate-columns($key) {
   @for $i from 1 through 12 {
     .col-#{$key}-#{$i} {
       flex-basis: math.div(100%, 12) * $i;
