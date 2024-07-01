@@ -12,6 +12,7 @@
   cursor: pointer;
   border: none;
   text-transform: capitalize;
+  transition: outline 0.3s linear;
   &-default {
     background: $blue-500;
     color: $white;
