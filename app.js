@@ -9,6 +9,12 @@ toggleIcon.addEventListener("click", () => {
   navbarMenuList.classList.toggle("nav__active");
 });
 
-console.log(start)
-
 // Name typewrite effect
+const typewrite = () => {
+    if(start < nameText.length){
+        nameHeaderElement.innerHTML += nameText.charAt(start++);
+        setTimeout(typewrite, 100);
+    }
+};
+
+typewrite();
