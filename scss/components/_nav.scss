@@ -49,6 +49,9 @@
         flex-direction: column;
         padding-top: 5rem;
         transform: scale(0);
+        border-radius: 50%;
+        transition: all 0.3s ease-in-out;
+        transform-origin: 100% 50%;
       }
       &__li {
         &__a {
@@ -105,6 +108,7 @@
   @include responsive(sm) {
     &__active {
       transform: scale(1);
+      border-radius: 0%;
     }
   }
 }

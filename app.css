@@ -109,6 +109,9 @@ body {
     flex-direction: column;
     padding-top: 5rem;
     transform: scale(0);
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    transform-origin: 100% 50%;
   }
 }
 .nav__wrapper__ul__li__a {
@@ -169,6 +172,7 @@ body {
 @media (max-width: 768px) {
   .nav__active {
     transform: scale(1);
+    border-radius: 0%;
   }
 }
 
