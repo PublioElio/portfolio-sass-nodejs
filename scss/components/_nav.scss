@@ -58,7 +58,7 @@
           font-size: 1.4rem;
           padding-left: $gutter;
           padding-right: $gutter;
-          transition: all .5s linear;
+          transition: all 0.5s linear;
           @include responsive(sm) {
             display: block;
             padding-top: 1rem;
@@ -66,7 +66,7 @@
             padding-left: $gutter + 1rem;
             padding-right: $gutter + 1rem;
             color: $white;
-            &:hover{
+            &:hover {
               background: $white;
               color: $black;
               padding-left: $gutter + 2rem;
@@ -82,6 +82,20 @@
         &:last-child &__a {
           padding-right: 0;
         }
+      }
+    }
+    &__toggle {
+      display: none;
+      width: 3rem;
+      height: 3rem;
+      background: $blue-500;
+      border-radius: .4rem;
+      i {
+        color: $white;
+      }
+      @include responsive(sm) {
+        @include flexBox(center, center);
+
       }
     }
   }

@@ -145,6 +145,23 @@ body {
 .nav__wrapper__ul__li:last-child .nav__wrapper__ul__li__a {
   padding-right: 0;
 }
+.nav__wrapper__toggle {
+  display: none;
+  width: 3rem;
+  height: 3rem;
+  background: #3b82f6;
+  border-radius: 0.4rem;
+}
+.nav__wrapper__toggle i {
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .nav__wrapper__toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 .container {
   width: 100%;
