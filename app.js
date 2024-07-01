@@ -11,10 +11,10 @@ toggleIcon.addEventListener("click", () => {
 
 // Name typewrite effect
 const typewrite = () => {
-    if(start < nameText.length){
-        nameHeaderElement.innerHTML += nameText.charAt(start++);
-        setTimeout(typewrite, 100);
-    }
+  if (start < nameText.length) {
+    nameHeaderElement.innerHTML += nameText.charAt(start++);
+    setTimeout(typewrite, 100);
+  }
 };
 
 typewrite();
