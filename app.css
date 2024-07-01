@@ -68,6 +68,12 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 768px) {
+  .nav__wrapper {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
 .nav__wrapper__logo__brand {
   text-decoration: none;
   text-transform: capitalize;
@@ -112,8 +118,28 @@ body {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+@media (max-width: 768px) {
+  .nav__wrapper__ul__li__a {
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    color: #fff;
+  }
+  .nav__wrapper__ul__li__a:hover {
+    background: #fff;
+    color: #000;
+    padding-left: 3.5rem;
+  }
+}
 .nav__wrapper__ul__li:first-child .nav__wrapper__ul__li__a {
   color: #3b82f6;
+}
+@media (max-width: 768px) {
+  .nav__wrapper__ul__li:first-child .nav__wrapper__ul__li__a {
+    color: #000;
+  }
 }
 .nav__wrapper__ul__li:last-child .nav__wrapper__ul__li__a {
   padding-right: 0;

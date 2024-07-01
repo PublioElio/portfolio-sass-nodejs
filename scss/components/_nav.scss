@@ -14,6 +14,10 @@
     padding-left: $gutter;
     padding-right: $gutter;
     @include flexBox(space-between, center);
+    @include responsive(sm) {
+      padding-left: $gutter + 1rem;
+      padding-right: $gutter + 1rem;
+    }
     &__logo {
       &__brand {
         @extend .raleway-semibold;
@@ -54,9 +58,25 @@
           font-size: 1.4rem;
           padding-left: $gutter;
           padding-right: $gutter;
+          @include responsive(sm) {
+            display: block;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-left: $gutter + 1rem;
+            padding-right: $gutter + 1rem;
+            color: $white;
+            &:hover{
+              background: $white;
+              color: $black;
+              padding-left: $gutter + 2rem;
+            }
+          }
         }
         &:first-child &__a {
           color: $blue-500;
+          @include responsive(sm) {
+            color: $black;
+          }
         }
         &:last-child &__a {
           padding-right: 0;
