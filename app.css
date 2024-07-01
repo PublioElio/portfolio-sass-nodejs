@@ -209,6 +209,9 @@ body {
   font-weight: 500;
   color: #000;
 }
+.header__data__contents__links {
+  margin-top: 1.5rem;
+}
 
 .btn {
   display: inline-block;
