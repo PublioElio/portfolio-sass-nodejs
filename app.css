@@ -108,6 +108,7 @@ body {
     background: #3b82f6;
     flex-direction: column;
     padding-top: 5rem;
+    transform: scale(0);
   }
 }
 .nav__wrapper__ul__li__a {
@@ -151,9 +152,12 @@ body {
   height: 3rem;
   background: #3b82f6;
   border-radius: 0.4rem;
+  outline: 0.3rem solid #bfdbfe;
+  cursor: pointer;
 }
 .nav__wrapper__toggle i {
   color: #fff;
+  font-size: 2.1rem;
 }
 @media (max-width: 768px) {
   .nav__wrapper__toggle {

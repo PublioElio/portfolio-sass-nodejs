@@ -48,6 +48,7 @@
         background: $blue-500;
         flex-direction: column;
         padding-top: 5rem;
+        transform: scale(0);
       }
       &__li {
         &__a {
@@ -89,13 +90,15 @@
       width: 3rem;
       height: 3rem;
       background: $blue-500;
-      border-radius: .4rem;
+      border-radius: 0.4rem;
+      outline: 0.3rem solid $blue-200;
+      cursor: pointer;
       i {
         color: $white;
+        font-size: 2.1rem;
       }
       @include responsive(sm) {
         @include flexBox(center, center);
-
       }
     }
   }
