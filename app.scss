@@ -1,10 +1,11 @@
 // base modules
-@use 'scss/base/typography';
-@use 'scss/base/reset';
+@use "scss/base/typography";
+@use "scss/base/reset";
 
 // components
-@use 'scss/components/nav';
-@use 'scss/components/header';
+@use "scss/components/nav";
+@use "scss/components/header";
+@use "scss/components/btns";
 
 // layout modules
-@use 'scss/layout/grid';
+@use "scss/layout/grid";
