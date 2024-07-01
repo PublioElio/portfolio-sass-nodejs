@@ -58,6 +58,7 @@
           font-size: 1.4rem;
           padding-left: $gutter;
           padding-right: $gutter;
+          transition: all .5s linear;
           @include responsive(sm) {
             display: block;
             padding-top: 1rem;

@@ -117,6 +117,7 @@ body {
   font-size: 1.4rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  transition: all 0.5s linear;
 }
 @media (max-width: 768px) {
   .nav__wrapper__ul__li__a {
