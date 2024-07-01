@@ -176,6 +176,40 @@ body {
   }
 }
 
+.header {
+  margin-top: 7rem;
+}
+.header__data {
+  width: 100%;
+  height: calc(100vh - 10rem);
+  display: flex;
+  align-items: center;
+}
+.header__data__contents__top {
+  font-size: 1.7rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #000;
+}
+.header__data__contents__heading {
+  margin-top: 1.5rem;
+  font-size: 4.5rem;
+  font-weight: 900;
+  line-height: 4.5rem;
+  background: linear-gradient(45deg, #000 50%, #3b82f6 50%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: capitalize;
+}
+.header__data__contents__bottom {
+  margin-top: 1.5rem;
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #000;
+}
+
 .container {
   width: 100%;
   max-width: 120rem;

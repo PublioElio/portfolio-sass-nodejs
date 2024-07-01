@@ -1,0 +1,36 @@
+@use "../abstracts" as *;
+
+.header {
+  margin-top: 7rem;
+  &__data {
+    width: 100%;
+    height: calc(100vh - 10rem);
+    @include flexBox(null, center);
+    &__contents {
+      &__top {
+        font-size: 1.7rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        color: $black;
+      }
+      &__heading {
+        margin-top: 1.5rem;
+        font-size: 4.5rem;
+        font-weight: 900;
+        line-height: 4.5rem;
+        background: linear-gradient(45deg, $black 50%, $blue-500 50%);
+        color:transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+        text-transform: capitalize;
+      }
+      &__bottom {
+        margin-top: 1.5rem;
+        text-transform: capitalize;
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: $black;
+      }
+    }
+  }
+}
