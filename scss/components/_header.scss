@@ -36,7 +36,7 @@
         font-weight: 500;
         text-transform: capitalize;
         color: $black;
-        @include responsive(xsm){
+        @include responsive(xsm) {
           font-size: 1.6rem;
         }
       }
