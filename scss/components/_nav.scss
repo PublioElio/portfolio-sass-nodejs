@@ -8,6 +8,7 @@
   @include position(fixed, 0, null, null, 0);
   border-bottom: 0.1rem solid $gray-100;
   @include flexBox(center, null);
+  z-index: 1;
   &__wrapper {
     width: 100%;
     max-width: $maxWidth;
