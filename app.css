@@ -212,9 +212,8 @@ body {
 }
 @media (max-width: 768px) {
   .header__data {
-    height: calc(50vh - 10rem);
-    margin-top: 50vh;
-    background: red;
+    height: calc(50vh - 3rem);
+    margin-top: calc(50vh - 7rem);
   }
 }
 .header__data__contents__top {
@@ -222,6 +221,11 @@ body {
   font-weight: 500;
   text-transform: capitalize;
   color: #000;
+}
+@media (max-width: 480px) {
+  .header__data__contents__top {
+    font-size: 1.6rem;
+  }
 }
 .header__data__contents__heading {
   margin-top: 1.5rem;
@@ -234,12 +238,43 @@ body {
   -webkit-background-clip: text;
   text-transform: capitalize;
 }
+@media (max-width: 992px) {
+  .header__data__contents__heading {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+@media (max-width: 768px) {
+  .header__data__contents__heading {
+    font-size: 3.3rem;
+    line-height: 3.3rem;
+    margin-top: 1rem;
+    font-weight: 800;
+  }
+}
+@media (max-width: 480px) {
+  .header__data__contents__heading {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 700;
+  }
+}
 .header__data__contents__bottom {
   margin-top: 1.5rem;
   text-transform: capitalize;
   font-size: 1.8rem;
   font-weight: 500;
   color: #000;
+}
+@media (max-width: 768px) {
+  .header__data__contents__bottom {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .header__data__contents__bottom {
+    font-size: 1.7rem;
+  }
 }
 .header__data__contents__links {
   margin-top: 1.5rem;
