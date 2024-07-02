@@ -2,6 +2,17 @@
 
 .header {
   margin-top: 7rem;
+  position: relative;
+  // Profile user img
+  &::after {
+    @include position(absolute, 0, 0, null, null);
+    content: "";
+    width: 50%;
+    height: 100vh;
+    background: url("../../assets/img/adriano-diaz-benitez-backend-developer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   &__data {
     width: 100%;
     height: calc(100vh - 10rem);
@@ -19,7 +30,7 @@
         font-weight: 900;
         line-height: 4.5rem;
         background: linear-gradient(45deg, $black 50%, $blue-500 50%);
-        color:transparent;
+        color: transparent;
         background-clip: text;
         -webkit-background-clip: text;
         text-transform: capitalize;
