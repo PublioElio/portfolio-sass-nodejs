@@ -186,16 +186,36 @@ body {
   right: 0;
   content: "";
   width: 50%;
-  height: 100vh;
+  height: calc(100vh - 7rem);
   background: url("../../assets/img/adriano-diaz-benitez-backend-developer.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 0 15%;
+  clip-path: polygon(19% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+@media (max-width: 992px) {
+  .header::after {
+    clip-path: none;
+  }
+}
+@media (max-width: 768px) {
+  .header::after {
+    width: 100%;
+    height: calc(50vh - 7rem);
+  }
 }
 .header__data {
   width: 100%;
   height: calc(100vh - 10rem);
   display: flex;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .header__data {
+    height: calc(50vh - 10rem);
+    margin-top: 50vh;
+    background: red;
+  }
 }
 .header__data__contents__top {
   font-size: 1.7rem;
