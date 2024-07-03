@@ -27,6 +27,10 @@
     @include responsive(md) {
       height: calc(50vh - 3rem);
       margin-top: calc(50vh - 7rem);
+      justify-content: center;
+    }
+    @include responsive(xsm) {
+      justify-content: flex-start;
     }
     &__contents {
       &__top {

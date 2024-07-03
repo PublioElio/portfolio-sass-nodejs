@@ -211,6 +211,12 @@ body {
   .header__data {
     height: calc(50vh - 3rem);
     margin-top: calc(50vh - 7rem);
+    justify-content: center;
+  }
+}
+@media (max-width: 480px) {
+  .header__data {
+    justify-content: flex-start;
   }
 }
 .header__data__contents__top {
