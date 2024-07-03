@@ -7,6 +7,10 @@
   padding-right: $gutter;
   margin-left: auto;
   margin-right: auto;
+  @include responsive(sm) {
+    padding-left: $gutter + 1rem;
+    padding-right: $gutter + 1rem;
+  }
 }
 
 .row {
@@ -19,8 +23,7 @@
     @media (min-width: $value) {
       @include generate-columns($key);
     }
-  }
-  @else {
+  } @else {
     @media (max-width: $value) {
       @include generate-columns($key);
     }

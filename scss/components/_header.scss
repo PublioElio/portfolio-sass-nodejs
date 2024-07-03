@@ -15,18 +15,16 @@
     background-position: 0 15%;
     clip-path: polygon(19% 0, 100% 0%, 100% 100%, 0% 100%);
     @include responsive(md) {
-      clip-path: none;
-    }
-    @include responsive(sm) {
       width: 100%;
       height: calc(50vh - 7rem);
+      clip-path: none;
     }
   }
   &__data {
     width: 100%;
     height: calc(100vh - 10rem);
     @include flexBox(null, center);
-    @include responsive(sm) {
+    @include responsive(md) {
       height: calc(50vh - 3rem);
       margin-top: calc(50vh - 7rem);
     }

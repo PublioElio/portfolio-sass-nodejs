@@ -13,6 +13,13 @@
   border: none;
   text-transform: capitalize;
   transition: outline 0.3s linear;
+  @include responsive(xsm) {
+    height: 3.5rem;
+    line-height: 3.5rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    font-size: 1.2rem;
+  }
   &-default {
     background: $blue-500;
     color: $white;
