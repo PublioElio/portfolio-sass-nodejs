@@ -177,11 +177,11 @@ body {
   }
 }
 
-.header {
+.homeHeader {
   margin-top: 7rem;
   position: relative;
 }
-.header::after {
+.homeHeader::after {
   position: absolute;
   top: 0;
   right: 0;
@@ -195,42 +195,42 @@ body {
   clip-path: polygon(19% 0, 100% 0%, 100% 100%, 0% 100%);
 }
 @media (max-width: 992px) {
-  .header::after {
+  .homeHeader::after {
     width: 100%;
     height: calc(50vh - 7rem);
     clip-path: none;
   }
 }
-.header__data {
+.homeHeader__data {
   width: 100%;
   height: calc(100vh - 10rem);
   display: flex;
   align-items: center;
 }
 @media (max-width: 992px) {
-  .header__data {
+  .homeHeader__data {
     height: calc(50vh - 3rem);
     margin-top: calc(50vh - 7rem);
     justify-content: center;
   }
 }
 @media (max-width: 480px) {
-  .header__data {
+  .homeHeader__data {
     justify-content: flex-start;
   }
 }
-.header__data__contents__top {
+.homeHeader__data__contents__top {
   font-size: 1.7rem;
   font-weight: 500;
   text-transform: capitalize;
   color: #000;
 }
 @media (max-width: 480px) {
-  .header__data__contents__top {
+  .homeHeader__data__contents__top {
     font-size: 1.6rem;
   }
 }
-.header__data__contents__heading {
+.homeHeader__data__contents__heading {
   margin-top: 1.5rem;
   font-size: 4.5rem;
   font-weight: 900;
@@ -242,13 +242,13 @@ body {
   text-transform: capitalize;
 }
 @media (max-width: 992px) {
-  .header__data__contents__heading {
+  .homeHeader__data__contents__heading {
     font-size: 4rem;
     line-height: 4rem;
   }
 }
 @media (max-width: 768px) {
-  .header__data__contents__heading {
+  .homeHeader__data__contents__heading {
     font-size: 3.3rem;
     line-height: 3.3rem;
     margin-top: 1rem;
@@ -256,13 +256,13 @@ body {
   }
 }
 @media (max-width: 480px) {
-  .header__data__contents__heading {
+  .homeHeader__data__contents__heading {
     font-size: 3rem;
     line-height: 3rem;
     font-weight: 700;
   }
 }
-.header__data__contents__bottom {
+.homeHeader__data__contents__bottom {
   margin-top: 1.5rem;
   text-transform: capitalize;
   font-size: 1.8rem;
@@ -270,16 +270,16 @@ body {
   color: #000;
 }
 @media (max-width: 768px) {
-  .header__data__contents__bottom {
+  .homeHeader__data__contents__bottom {
     margin-top: 1rem;
   }
 }
 @media (max-width: 480px) {
-  .header__data__contents__bottom {
+  .homeHeader__data__contents__bottom {
     font-size: 1.7rem;
   }
 }
-.header__data__contents__links {
+.homeHeader__data__contents__links {
   margin-top: 1.5rem;
 }
 
