@@ -360,6 +360,7 @@ body {
   font-weight: 400;
   color: #000;
   line-height: 2.5rem;
+  text-align: justify;
 }
 .homeModal__wrapper__contents__block {
   display: flex;

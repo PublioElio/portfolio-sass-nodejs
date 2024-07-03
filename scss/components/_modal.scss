@@ -30,6 +30,7 @@
         font-weight: 400;
         color: $black;
         line-height: 2.5rem;
+        text-align: justify;
       }
       &__block {
         @include flexBox(space-between, null);
