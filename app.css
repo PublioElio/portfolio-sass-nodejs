@@ -329,7 +329,25 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+.homeModal__wrapper {
+  display: flex;
+  width: 75rem;
+  height: 45rem;
+  background: #fff;
+}
+.homeModal__wrapper__image {
+  width: 50%;
+  height: 45rem;
+}
+.homeModal__wrapper__image__img {
+  width: 100%;
+  height: 100%;
+}
+.homeModal__wrapper__contents {
+  width: 50%;
 }
 
 .container {
