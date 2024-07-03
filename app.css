@@ -340,6 +340,15 @@ body {
   width: 75rem;
   height: 45rem;
   background: #fff;
+  position: relative;
+}
+.homeModal__wrapper__close {
+  position: absolute;
+  top: 0.8rem;
+  right: 1rem;
+  display: block;
+  font-size: 3rem;
+  cursor: pointer;
 }
 .homeModal__wrapper__image {
   width: 50%;
@@ -365,6 +374,20 @@ body {
 .homeModal__wrapper__contents__block {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 0.5rem;
+  margin-top: 1.5rem;
+  border-bottom: 0.1rem dashed #e5e7eb;
+}
+.homeModal__wrapper__contents__block__left {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #000;
+}
+.homeModal__wrapper__contents__block__right {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #4b5563;
 }
 
 .container {

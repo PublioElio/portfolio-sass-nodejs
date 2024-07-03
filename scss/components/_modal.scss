@@ -12,6 +12,13 @@
     width: 75rem;
     height: 45rem;
     background: $white;
+    position: relative;
+    &__close {
+      @include position(absolute, 0.8rem, 1rem, null, null);
+      display: block;
+      font-size: 3rem;
+      cursor: pointer;
+    }
     &__image {
       width: 50%;
       height: 45rem;
@@ -34,6 +41,20 @@
       }
       &__block {
         @include flexBox(space-between, null);
+        padding-bottom: 0.5rem;
+        margin-top: 1.5rem;
+        border-bottom: 0.1rem dashed $gray-200;
+        &__left {
+          font-size: 1.4rem;
+          font-weight: 400;
+          text-transform: capitalize;
+          color: $black;
+        }
+        &__right {
+          font-size: 1.3rem;
+          font-weight: 400;
+          color: $gray-600;
+        }
       }
     }
   }
