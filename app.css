@@ -342,6 +342,12 @@ body {
   background: #fff;
   position: relative;
 }
+@media (max-width: 768px) {
+  .homeModal__wrapper {
+    width: 90%;
+    height: auto;
+  }
+}
 .homeModal__wrapper__close {
   position: absolute;
   top: 0.8rem;
@@ -354,6 +360,11 @@ body {
   width: 50%;
   height: 45rem;
 }
+@media (max-width: 768px) {
+  .homeModal__wrapper__image {
+    display: none;
+  }
+}
 .homeModal__wrapper__image__img {
   width: 100%;
   height: 100%;
@@ -363,6 +374,11 @@ body {
   width: 50%;
   padding: 5rem 2rem;
 }
+@media (max-width: 768px) {
+  .homeModal__wrapper__contents {
+    width: 100%;
+  }
+}
 .homeModal__wrapper__contents__p {
   margin-top: 1.5rem;
   font-size: 1.4rem;
@@ -370,6 +386,11 @@ body {
   color: #000;
   line-height: 2.5rem;
   text-align: justify;
+}
+@media (max-width: 480px) {
+  .homeModal__wrapper__contents__p {
+    font-size: 1.2rem;
+  }
 }
 .homeModal__wrapper__contents__block {
   display: flex;
@@ -384,10 +405,20 @@ body {
   text-transform: capitalize;
   color: #000;
 }
+@media (max-width: 480px) {
+  .homeModal__wrapper__contents__block__left {
+    font-size: 1.2rem;
+  }
+}
 .homeModal__wrapper__contents__block__right {
   font-size: 1.3rem;
   font-weight: 400;
   color: #4b5563;
+}
+@media (max-width: 480px) {
+  .homeModal__wrapper__contents__block__right {
+    font-size: 1.1rem;
+  }
 }
 
 .container {
@@ -666,6 +697,11 @@ body {
   text-transform: capitalize;
   color: #000;
   position: relative;
+}
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.8rem;
+  }
 }
 .heading::after {
   position: absolute;

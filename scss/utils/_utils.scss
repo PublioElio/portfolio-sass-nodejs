@@ -6,6 +6,9 @@
   text-transform: capitalize;
   color: $black;
   position: relative;
+  @include responsive(xsm) {
+    font-size: 1.8rem;
+  }
   &::after {
     @include position(absolute, 50%, null, null, 0);
     content: "";
