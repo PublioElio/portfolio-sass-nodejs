@@ -6,6 +6,7 @@
   @include position(fixed, 0, 0, 0, 0);
   background: rgba(0, 0, 0, 0.6);
   z-index: 2;
+  @include flexBox(center, center);
   &__wrapper {
     display: flex;
     width: 75rem;
@@ -22,6 +23,17 @@
     }
     &__contents {
       width: 50%;
+      padding: 5rem 2rem;
+      &__p {
+        margin-top: 1.5rem;
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: $black;
+        line-height: 2.5rem;
+      }
+      &__block {
+        @include flexBox(space-between, null);
+      }
     }
   }
 }
