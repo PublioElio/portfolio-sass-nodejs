@@ -1,5 +1,6 @@
 @use "sass:math";
 @use "variables" as *;
+@use "../base" as *;
 
 @mixin flexBox($x, $y) {
   display: flex;
@@ -42,4 +43,10 @@
       @content;
     }
   }
+}
+
+@mixin text-style($font-class, $font-size, $color) {
+  @extend #{$font-class};
+  font-size: $font-size;
+  color: $color;
 }

@@ -19,14 +19,14 @@
       padding-left: $gutter + 1rem;
       padding-right: $gutter + 1rem;
     }
+
     &__logo {
       &__brand {
-        @extend .raleway-semibold;
+        @include text-style(".raleway-bold", 2.5rem, $black);
         text-decoration: none;
         text-transform: capitalize;
-        font-size: 2.5rem;
-        color: $black;
         position: relative;
+
         // this class creates de dot after the name
         &::after {
           @include position(absolute, null, -1rem, 0.6rem, null);
@@ -39,6 +39,7 @@
         }
       }
     }
+
     &__ul {
       display: flex;
       list-style: none;
@@ -54,16 +55,16 @@
         transition: all 0.3s ease-in-out;
         transform-origin: 100% 50%;
       }
+
       &__li {
         &__a {
-          @extend .raleway-semibold;
+          @include text-style(".raleway-bold", 1.4rem, $black);
           text-decoration: none;
           text-transform: capitalize;
-          color: $black;
-          font-size: 1.4rem;
           padding-left: $gutter;
           padding-right: $gutter;
           transition: all 0.5s linear;
+
           @include responsive(sm) {
             display: block;
             padding-top: 1rem;
@@ -71,6 +72,7 @@
             padding-left: $gutter + 1rem;
             padding-right: $gutter + 1rem;
             color: $white;
+
             &:hover {
               background: $white;
               color: $black;
@@ -78,17 +80,21 @@
             }
           }
         }
+
         &:first-child &__a {
           color: $blue-500;
+
           @include responsive(sm) {
             color: $black;
           }
         }
+
         &:last-child &__a {
           padding-right: 0;
         }
       }
     }
+
     &__toggle {
       display: none;
       width: 3rem;
@@ -97,15 +103,18 @@
       border-radius: 0.4rem;
       outline: 0.3rem solid $blue-200;
       cursor: pointer;
+
       i {
         color: $white;
         font-size: 2.1rem;
       }
+
       @include responsive(sm) {
         @include flexBox(center, center);
       }
     }
   }
+  
   @include responsive(sm) {
     &__active {
       transform: scale(1);

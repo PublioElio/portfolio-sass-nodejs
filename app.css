@@ -1,4 +1,4 @@
-.raleway-regular, body, .raleway-italic-regular, .raleway-italic-light, .raleway-black, .raleway-extrabold, .raleway-bold, .raleway-semibold, .nav__wrapper__logo__brand, .nav__wrapper__ul__li__a, .raleway-medium {
+.raleway-regular, .homeModal__wrapper__contents__p, .homeModal__wrapper__contents__block__left, .homeModal__wrapper__contents__block__right, body, .raleway-italic-regular, .raleway-italic-light, .raleway-black, .raleway-extrabold, .raleway-bold, .nav__wrapper__logo__brand, .nav__wrapper__ul__li__a, .raleway-semibold, .raleway-medium {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -9,11 +9,11 @@
   font-weight: 500;
 }
 
-.raleway-semibold, .nav__wrapper__logo__brand, .nav__wrapper__ul__li__a {
+.raleway-semibold {
   font-weight: 600;
 }
 
-.raleway-bold {
+.raleway-bold, .nav__wrapper__logo__brand, .nav__wrapper__ul__li__a {
   font-weight: 700;
 }
 
@@ -76,10 +76,10 @@ body {
   }
 }
 .nav__wrapper__logo__brand {
-  text-decoration: none;
-  text-transform: capitalize;
   font-size: 2.5rem;
   color: #000;
+  text-decoration: none;
+  text-transform: capitalize;
   position: relative;
 }
 .nav__wrapper__logo__brand::after {
@@ -116,10 +116,10 @@ body {
   }
 }
 .nav__wrapper__ul__li__a {
+  font-size: 1.4rem;
+  color: #000;
   text-decoration: none;
   text-transform: capitalize;
-  color: #000;
-  font-size: 1.4rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   transition: all 0.5s linear;
@@ -349,7 +349,7 @@ body {
     transform: translateY(-4rem);
   }
   to {
-    transform: translateY(0rem);
+    transform: translateY(0);
   }
 }
 @media (max-width: 768px) {
@@ -392,7 +392,6 @@ body {
 .homeModal__wrapper__contents__p {
   margin-top: 1.5rem;
   font-size: 1.4rem;
-  font-weight: 400;
   color: #000;
   line-height: 2.5rem;
   text-align: justify;
@@ -411,9 +410,8 @@ body {
 }
 .homeModal__wrapper__contents__block__left {
   font-size: 1.4rem;
-  font-weight: 400;
-  text-transform: capitalize;
   color: #000;
+  text-transform: capitalize;
 }
 @media (max-width: 480px) {
   .homeModal__wrapper__contents__block__left {
@@ -422,7 +420,6 @@ body {
 }
 .homeModal__wrapper__contents__block__right {
   font-size: 1.3rem;
-  font-weight: 400;
   color: #4b5563;
 }
 @media (max-width: 480px) {
