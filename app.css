@@ -342,6 +342,15 @@ body {
   height: 45rem;
   background: #fff;
   position: relative;
+  animation: homeModalOpening 0.5s ease-in;
+}
+@keyframes homeModalOpening {
+  from {
+    transform: translateY(-4rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
 }
 @media (max-width: 768px) {
   .homeModal__wrapper {
