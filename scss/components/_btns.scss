@@ -7,12 +7,12 @@
   line-height: 4.3rem;
   padding: 0 1.5rem;
   border-radius: 0.3rem;
-  font-size: 1.5rem;
-  font-weight: 500;
   cursor: pointer;
   border: none;
   text-transform: capitalize;
   transition: outline 0.3s linear;
+  @include text-style('.raleway-medium', 1.5rem, $black);
+
   @include responsive(xsm) {
     height: 3.5rem;
     line-height: 3.5rem;
@@ -20,16 +20,20 @@
     padding-right: 1.3rem;
     font-size: 1.2rem;
   }
+
   &-default {
     background: $blue-500;
     color: $white;
+
     &:focus {
       outline: 0.4rem solid $blue-100;
     }
   }
+
   &-dark {
     background: $black;
     color: $white;
+    
     &:focus {
       outline: 0.4rem solid $black-light;
     }

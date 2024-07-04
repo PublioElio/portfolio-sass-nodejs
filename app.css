@@ -1,11 +1,11 @@
-.raleway-regular, .homeModal__wrapper__contents__p, .homeModal__wrapper__contents__block__left, .homeModal__wrapper__contents__block__right, body, .raleway-italic-regular, .raleway-italic-light, .raleway-black, .raleway-extrabold, .raleway-bold, .nav__wrapper__logo__brand, .nav__wrapper__ul__li__a, .raleway-semibold, .raleway-medium {
+.raleway-regular, .homeModal__wrapper__contents__p, .homeModal__wrapper__contents__block__left, .homeModal__wrapper__contents__block__right, body, .raleway-italic-regular, .raleway-italic-light, .raleway-black, .raleway-extrabold, .raleway-bold, .nav__wrapper__logo__brand, .nav__wrapper__ul__li__a, .raleway-semibold, .raleway-medium, .btn, .homeHeader__data__contents__top, .homeHeader__data__contents__bottom {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-.raleway-medium {
+.raleway-medium, .btn, .homeHeader__data__contents__top, .homeHeader__data__contents__bottom {
   font-weight: 500;
 }
 
@@ -221,9 +221,8 @@ body {
 }
 .homeHeader__data__contents__top {
   font-size: 1.7rem;
-  font-weight: 500;
-  text-transform: capitalize;
   color: #000;
+  text-transform: capitalize;
 }
 @media (max-width: 480px) {
   .homeHeader__data__contents__top {
@@ -263,11 +262,10 @@ body {
   }
 }
 .homeHeader__data__contents__bottom {
+  font-size: 1.8rem;
+  color: #000;
   margin-top: 1.5rem;
   text-transform: capitalize;
-  font-size: 1.8rem;
-  font-weight: 500;
-  color: #000;
 }
 @media (max-width: 768px) {
   .homeHeader__data__contents__bottom {
@@ -290,12 +288,12 @@ body {
   line-height: 4.3rem;
   padding: 0 1.5rem;
   border-radius: 0.3rem;
-  font-size: 1.5rem;
-  font-weight: 500;
   cursor: pointer;
   border: none;
   text-transform: capitalize;
   transition: outline 0.3s linear;
+  font-size: 1.5rem;
+  color: #000;
 }
 @media (max-width: 480px) {
   .btn {

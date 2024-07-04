@@ -20,6 +20,7 @@
       clip-path: none;
     }
   }
+
   &__data {
     width: 100%;
     height: calc(100vh - 10rem);
@@ -29,19 +30,21 @@
       margin-top: calc(50vh - 7rem);
       justify-content: center;
     }
+
     @include responsive(xsm) {
       justify-content: flex-start;
     }
+
     &__contents {
       &__top {
-        font-size: 1.7rem;
-        font-weight: 500;
+        @include text-style('.raleway-medium', 1.7rem, $black);
         text-transform: capitalize;
-        color: $black;
+
         @include responsive(xsm) {
           font-size: 1.6rem;
         }
       }
+
       &__heading {
         margin-top: 1.5rem;
         font-size: 4.5rem;
@@ -52,16 +55,19 @@
         background-clip: text;
         -webkit-background-clip: text;
         text-transform: capitalize;
+
         @include responsive(md) {
           font-size: 4rem;
           line-height: 4rem;
         }
+
         @include responsive(sm) {
           font-size: 3.3rem;
           line-height: 3.3rem;
           margin-top: 1rem;
           font-weight: 800;
         }
+
         @include responsive(xsm) {
           font-size: 3rem;
           line-height: 3rem;
@@ -69,18 +75,19 @@
         }
       }
       &__bottom {
+        @include text-style('.raleway-medium', 1.8rem, $black);
         margin-top: 1.5rem;
         text-transform: capitalize;
-        font-size: 1.8rem;
-        font-weight: 500;
-        color: $black;
+
         @include responsive(sm) {
           margin-top: 1rem;
         }
+
         @include responsive(xsm) {
           font-size: 1.7rem;
         }
       }
+      
       &__links {
         margin-top: 1.5rem;
       }
