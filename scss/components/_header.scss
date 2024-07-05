@@ -9,7 +9,7 @@
     content: "";
     width: 50%;
     height: calc(100vh - 7rem);
-    background: url("../../assets/img/adriano-diaz-benitez-backend-developer-home.jpg");
+    background: url("../../assets/img/user.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 15%;
@@ -17,7 +17,6 @@
 
     @include responsive(md) {
       width: 100%;
-      background: url("../../assets/img/adriano-diaz-benitez-backend-developer-home-2.png");
       height: calc(50vh - 7rem);
       clip-path: none;
     }
