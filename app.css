@@ -571,12 +571,12 @@ body {
   border-radius: 50%;
   box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.1);
 }
-.education__card__block__left--computer {
+.education__card__block__left--studies {
   background: #dbeafe;
 }
-.education__card__block__left--computer i {
+.education__card__block__left--studies i {
   color: #2563eb;
-  font-size: 1.6rem;
+  font-size: 2.1rem;
 }
 .education__card__block__left--calendar {
   background: #e5e7eb;
