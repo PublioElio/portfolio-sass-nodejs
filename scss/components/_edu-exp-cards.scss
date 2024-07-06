@@ -1,6 +1,6 @@
 @use "../abstracts" as *;
 
-.education {
+.edu-exp {
   padding: 8rem 0;
   &__card {
     width: 100%;
@@ -46,6 +46,7 @@
         display: inline-block;
         margin-left: 1rem;
         text-transform: capitalize;
+        flex: 1;
       }
     }
   }

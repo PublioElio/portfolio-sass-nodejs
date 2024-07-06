@@ -1,11 +1,11 @@
-.raleway-regular, .homeModal__wrapper__contents__p, .homeModal__wrapper__contents__block__left, .homeModal__wrapper__contents__block__right, body, .raleway-italic-regular, .raleway-italic-light, .raleway-black, .raleway-extrabold, .raleway-bold, .nav__wrapper__logo__brand, .nav__wrapper__ul__li__a, .education__card__title, .about__info__block__left, .raleway-semibold, .raleway-medium, .education__card__block__right, .about__info__message, .about__info__block__right, .about__info__socials__circle i, .btn, .homeHeader__data__contents__top, .homeHeader__data__contents__bottom {
+.raleway-regular, .homeModal__wrapper__contents__p, .homeModal__wrapper__contents__block__left, .homeModal__wrapper__contents__block__right, body, .raleway-italic-regular, .raleway-italic-light, .raleway-black, .raleway-extrabold, .raleway-bold, .nav__wrapper__logo__brand, .nav__wrapper__ul__li__a, .edu-exp__card__title, .about__info__block__left, .raleway-semibold, .raleway-medium, .edu-exp__card__block__right, .about__info__message, .about__info__block__right, .about__info__socials__circle i, .btn, .homeHeader__data__contents__top, .homeHeader__data__contents__bottom {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-.raleway-medium, .education__card__block__right, .about__info__message, .about__info__block__right, .about__info__socials__circle i, .btn, .homeHeader__data__contents__top, .homeHeader__data__contents__bottom {
+.raleway-medium, .edu-exp__card__block__right, .about__info__message, .about__info__block__right, .about__info__socials__circle i, .btn, .homeHeader__data__contents__top, .homeHeader__data__contents__bottom {
   font-weight: 500;
 }
 
@@ -13,7 +13,7 @@
   font-weight: 600;
 }
 
-.raleway-bold, .nav__wrapper__logo__brand, .nav__wrapper__ul__li__a, .education__card__title, .about__info__block__left {
+.raleway-bold, .nav__wrapper__logo__brand, .nav__wrapper__ul__li__a, .edu-exp__card__title, .about__info__block__left {
   font-weight: 700;
 }
 
@@ -537,17 +537,17 @@ body {
   color: #fff;
 }
 
-.education {
+.edu-exp {
   padding: 8rem 0;
 }
-.education__card {
+.edu-exp__card {
   width: 100%;
   background: linear-gradient(110deg, #fff 50%, #eff6ff 50%);
   padding: 1.5rem;
   box-shadow: -3rem 3rem 2rem -3rem rgba(52, 153, 211, 0.2);
   border-radius: 0.3rem;
 }
-.education__card__title {
+.edu-exp__card__title {
   font-size: 1.3rem;
   color: #000;
   line-height: 2rem;
@@ -557,12 +557,12 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
 }
-.education__card__block {
+.edu-exp__card__block {
   display: flex;
   align-items: center;
   margin-top: 1.5rem;
 }
-.education__card__block__left {
+.edu-exp__card__block__left {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -571,26 +571,27 @@ body {
   border-radius: 50%;
   box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.1);
 }
-.education__card__block__left--studies {
+.edu-exp__card__block__left--studies {
   background: #dbeafe;
 }
-.education__card__block__left--studies i {
+.edu-exp__card__block__left--studies i {
   color: #2563eb;
   font-size: 2.1rem;
 }
-.education__card__block__left--calendar {
+.edu-exp__card__block__left--calendar {
   background: #e5e7eb;
 }
-.education__card__block__left--calendar i {
+.edu-exp__card__block__left--calendar i {
   color: #374151;
   font-size: 1.6rem;
 }
-.education__card__block__right {
+.edu-exp__card__block__right {
   font-size: 1.3rem;
   color: #000;
   display: inline-block;
   margin-left: 1rem;
   text-transform: capitalize;
+  flex: 1;
 }
 
 .container {
