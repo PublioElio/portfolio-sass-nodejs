@@ -464,6 +464,25 @@ body {
   line-height: 2.8rem;
   text-align: justify;
 }
+.about__info__block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem dashed #d1d5db;
+}
+.about__info__block__left {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #000;
+  text-transform: capitalize;
+}
+.about__info__block__right {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #374151;
+  text-transform: capitalize;
+}
 
 .container {
   width: 100%;
@@ -756,4 +775,8 @@ body {
   height: 0.5rem;
   background: #3b82f6;
   opacity: 0.4;
+}
+
+.lowercase {
+  text-transform: lowercase;
 }
