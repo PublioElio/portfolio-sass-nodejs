@@ -428,11 +428,32 @@ body {
 
 .about {
   padding: 8rem 0;
-  background: linear-gradient(to right, #dbeafe 30%, #fff 50%);
+  background: linear-gradient(to right, #eff6ff 30%, #fff 50%);
 }
 .about__image {
   width: 30rem;
   height: 30rem;
+  position: relative;
+}
+.about__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.about__image__small {
+  position: absolute;
+  top: -3rem;
+  left: -3rem;
+  width: 15rem;
+  height: 15rem;
+}
+.about__image__small img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 0.7rem solid #eff6ff;
 }
 
 .container {

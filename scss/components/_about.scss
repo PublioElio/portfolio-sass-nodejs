@@ -2,12 +2,29 @@
 
 .about {
   padding: 8rem 0;
-  background: linear-gradient(to right, $blue-100 30%, $white 50%);
+  background: linear-gradient(to right, $blue-50 30%, $white 50%);
 
   &__image {
     width: 30rem;
     height: 30rem;
-
-    
+    position: relative;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    &__small {
+      @include position(absolute, -3rem, null, null, -3rem);
+      width: 15rem;
+      height: 15rem;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+        border: .7rem solid $blue-50;
+      }
+    }
   }
 }
