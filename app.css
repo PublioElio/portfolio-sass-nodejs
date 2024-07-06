@@ -426,6 +426,11 @@ body {
   }
 }
 
+.about {
+  padding: 8rem 0;
+  background: linear-gradient(to right);
+}
+
 .container {
   width: 100%;
   max-width: 120rem;
