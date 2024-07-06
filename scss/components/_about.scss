@@ -39,17 +39,12 @@
       margin-top: 1.5rem;
       padding-bottom: 0.5rem;
       border-bottom: 0.1rem dashed $gray-300;
+      text-transform: capitalize;
       &__left {
-        font-size: 1.4rem;
-        font-weight: 600;
-        color: $black;
-        text-transform: capitalize;
+        @include text-style(".raleway-bold", 1.4rem, $black);
       }
       &__right {
-        font-size: 1.3rem;
-        font-weight: 500;
-        color: $gray-700;
-        text-transform: capitalize;
+        @include text-style(".raleway-medium", 1.3rem, $gray-700);
       }
     }
     &__socials {
