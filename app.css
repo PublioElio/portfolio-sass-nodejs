@@ -578,6 +578,13 @@ body {
   color: #2563eb;
   font-size: 2.1rem;
 }
+.edu-exp__card__block__left--building {
+  background: #dbeafe;
+}
+.edu-exp__card__block__left--building i {
+  color: #2563eb;
+  font-size: 1.6rem;
+}
 .edu-exp__card__block__left--calendar {
   background: #e5e7eb;
 }
