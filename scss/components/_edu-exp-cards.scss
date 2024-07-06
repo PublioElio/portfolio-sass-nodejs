@@ -20,6 +20,14 @@
     margin-bottom: 2rem;
     box-shadow: -3rem 3rem 2rem -3rem rgba(52, 153, 211, 0.2);
     border-radius: 1.3rem;
+    min-height: 20rem; /* This min height is to prevent cards from changing size with two-line headings */
+    @include responsive(md) {
+      min-height: 18rem; /* Min height adjustment for medium screens */
+    }
+    @include responsive(sm) {
+      min-height: 16rem; /* Min height adjustment for small screens */
+    }
+
     &__title {
       @include text-style(".raleway-bold", 1.3rem, $black);
       line-height: 2rem;
