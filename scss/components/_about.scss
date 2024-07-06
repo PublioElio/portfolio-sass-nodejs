@@ -1,6 +1,13 @@
 @use "../abstracts" as *;
 
 .about {
-    padding: 8rem 0;
-    background: linear-gradient(to right);
+  padding: 8rem 0;
+  background: linear-gradient(to right, $blue-100 30%, $white 50%);
+
+  &__image {
+    width: 30rem;
+    height: 30rem;
+
+    
+  }
 }
