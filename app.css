@@ -557,6 +557,11 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
 }
+.education__card__block {
+  display: flex;
+  align-items: center;
+}
+
 .container {
   width: 100%;
   max-width: 120rem;
