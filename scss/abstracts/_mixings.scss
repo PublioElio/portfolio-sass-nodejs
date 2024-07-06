@@ -50,3 +50,20 @@
   font-size: $font-size;
   color: $color;
 }
+
+@mixin edu-exp-icon-style($background, $color, $size) {
+  background: $background;
+  i {
+    color: $color;
+    font-size: $size;
+  }
+}
+
+@mixin skew-responsive($skew, $child) {
+  [class^="col-"]:nth-child(#{$child}) {
+    transform: skewY(#{$skew}deg);
+    @include responsive(lg) {
+      transform: none;
+    }
+  }
+}
