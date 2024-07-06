@@ -23,8 +23,16 @@
         height: 100%;
         border-radius: 50%;
         object-fit: cover;
-        border: .7rem solid $blue-50;
+        border: 0.7rem solid $blue-50;
       }
+    }
+  }
+  &__info {
+    margin-top: 1.5rem;
+    &__message {
+        @include text-style('.raleway-medium', 1.5rem, $black);
+        line-height: 2.8rem;
+        text-align: justify;
     }
   }
 }
