@@ -1,5 +1,23 @@
 @use "../abstracts" as *;
 
 .education {
-
+  padding: 8rem 0;
+  &__card {
+    width: 100%;
+    background: linear-gradient(110deg, $white 50%, $blue-50 50%);
+    padding: 1.5rem;
+    box-shadow: -3rem 3rem 2rem -3rem rgba(52, 153, 211, 0.2);
+    border-radius: 0.3rem;
+    &__title {
+      @include text-style(".raleway-bold", 1.3rem, $black);
+      line-height: 2rem;
+      text-transform: uppercase;
+      background: linear-gradient(45deg, $black 20%, $blue-500 20%);
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+    }
+    &__block {
+    }
+  }
 }
