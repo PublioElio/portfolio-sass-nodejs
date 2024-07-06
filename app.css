@@ -1,11 +1,11 @@
-.raleway-regular, .homeModal__wrapper__contents__p, .homeModal__wrapper__contents__block__left, .homeModal__wrapper__contents__block__right, body, .raleway-italic-regular, .raleway-italic-light, .raleway-black, .raleway-extrabold, .raleway-bold, .nav__wrapper__logo__brand, .nav__wrapper__ul__li__a, .education__card__title, .about__info__block__left, .raleway-semibold, .raleway-medium, .about__info__message, .about__info__block__right, .about__info__socials__circle i, .btn, .homeHeader__data__contents__top, .homeHeader__data__contents__bottom {
+.raleway-regular, .homeModal__wrapper__contents__p, .homeModal__wrapper__contents__block__left, .homeModal__wrapper__contents__block__right, body, .raleway-italic-regular, .raleway-italic-light, .raleway-black, .raleway-extrabold, .raleway-bold, .nav__wrapper__logo__brand, .nav__wrapper__ul__li__a, .education__card__title, .about__info__block__left, .raleway-semibold, .raleway-medium, .education__card__block__right, .about__info__message, .about__info__block__right, .about__info__socials__circle i, .btn, .homeHeader__data__contents__top, .homeHeader__data__contents__bottom {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-.raleway-medium, .about__info__message, .about__info__block__right, .about__info__socials__circle i, .btn, .homeHeader__data__contents__top, .homeHeader__data__contents__bottom {
+.raleway-medium, .education__card__block__right, .about__info__message, .about__info__block__right, .about__info__socials__circle i, .btn, .homeHeader__data__contents__top, .homeHeader__data__contents__bottom {
   font-weight: 500;
 }
 
@@ -560,6 +560,37 @@ body {
 .education__card__block {
   display: flex;
   align-items: center;
+  margin-top: 1.5rem;
+}
+.education__card__block__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+.education__card__block__left--computer {
+  background: #dbeafe;
+}
+.education__card__block__left--computer i {
+  color: #2563eb;
+  font-size: 1.6rem;
+}
+.education__card__block__left--calendar {
+  background: #e5e7eb;
+}
+.education__card__block__left--calendar i {
+  color: #374151;
+  font-size: 1.6rem;
+}
+.education__card__block__right {
+  font-size: 1.3rem;
+  color: #000;
+  display: inline-block;
+  margin-left: 1rem;
+  text-transform: capitalize;
 }
 
 .container {

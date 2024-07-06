@@ -19,6 +19,34 @@
     }
     &__block {
       @include flexBox(null, center);
+      margin-top: 1.5rem;
+      &__left {
+        @include flexBox(center, center);
+        width: 3.5rem;
+        height: 3.5rem;
+        border-radius: 50%;
+        box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.1);
+        &--computer {
+          background: $blue-100;
+          i {
+            color: $blue-600;
+            font-size: 1.6rem;
+          }
+        }
+        &--calendar {
+          background: $gray-200;
+          i {
+            color: $gray-700;
+            font-size: 1.6rem;
+          }
+        }
+      }
+      &__right {
+        @include text-style(".raleway-medium", 1.3rem, $black);
+        display: inline-block;
+        margin-left: 1rem;
+        text-transform: capitalize;
+      }
     }
   }
 }
