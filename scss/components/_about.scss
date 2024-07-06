@@ -48,7 +48,23 @@
       }
     }
     &__socials {
-    
+      margin-top: 2rem;
+      display: flex;
+      &__circle {
+        width: 3.5rem;
+        height: 3.5rem;
+        @include flexBox(center, center);
+        border-radius: 50%;
+        background: $blue-400;
+        margin-left: 1rem;
+        text-decoration: none;
+        &:first-child {
+          margin-left: 0;
+        }
+        i {
+          @include text-style(".raleway-medium", 1.6rem, $white);
+        }
+      }
     }
   }
 }

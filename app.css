@@ -1,11 +1,11 @@
-.raleway-regular, .homeModal__wrapper__contents__p, .homeModal__wrapper__contents__block__left, .homeModal__wrapper__contents__block__right, body, .raleway-italic-regular, .raleway-italic-light, .raleway-black, .raleway-extrabold, .raleway-bold, .nav__wrapper__logo__brand, .nav__wrapper__ul__li__a, .about__info__block__left, .raleway-semibold, .raleway-medium, .about__info__message, .about__info__block__right, .btn, .homeHeader__data__contents__top, .homeHeader__data__contents__bottom {
+.raleway-regular, .homeModal__wrapper__contents__p, .homeModal__wrapper__contents__block__left, .homeModal__wrapper__contents__block__right, body, .raleway-italic-regular, .raleway-italic-light, .raleway-black, .raleway-extrabold, .raleway-bold, .nav__wrapper__logo__brand, .nav__wrapper__ul__li__a, .about__info__block__left, .raleway-semibold, .raleway-medium, .about__info__message, .about__info__block__right, .about__info__socials__circle i, .btn, .homeHeader__data__contents__top, .homeHeader__data__contents__bottom {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-.raleway-medium, .about__info__message, .about__info__block__right, .btn, .homeHeader__data__contents__top, .homeHeader__data__contents__bottom {
+.raleway-medium, .about__info__message, .about__info__block__right, .about__info__socials__circle i, .btn, .homeHeader__data__contents__top, .homeHeader__data__contents__bottom {
   font-weight: 500;
 }
 
@@ -480,6 +480,29 @@ body {
   font-size: 1.3rem;
   color: #374151;
 }
+.about__info__socials {
+  margin-top: 2rem;
+  display: flex;
+}
+.about__info__socials__circle {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #60a5fa;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+.about__info__socials__circle:first-child {
+  margin-left: 0;
+}
+.about__info__socials__circle i {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
 .container {
   width: 100%;
   max-width: 120rem;
