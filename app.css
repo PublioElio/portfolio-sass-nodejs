@@ -1,4 +1,4 @@
-.raleway-regular, .homeModal__wrapper__contents__p, .homeModal__wrapper__contents__block__left, .homeModal__wrapper__contents__block__right, body, .raleway-italic-regular, .raleway-italic-light, .raleway-black, .raleway-extrabold, .raleway-bold, .nav__wrapper__logo__brand, .nav__wrapper__ul__li__a, .edu-exp__card__title, .about__info__block__left, .raleway-semibold, .projects__card__layer__contents__title, .raleway-medium, .edu-exp__card__block__right, .about__info__message, .about__info__block__right, .about__info__socials__circle i, .btn, .homeHeader__data__contents__top, .homeHeader__data__contents__bottom {
+.raleway-regular, .homeModal__wrapper__contents__p, .homeModal__wrapper__contents__block__left, .homeModal__wrapper__contents__block__right, body, .raleway-italic-regular, .raleway-italic-light, .raleway-black, .raleway-extrabold, .raleway-bold, .nav__wrapper__logo__brand, .nav__wrapper__ul__li__a, .edu-exp__card__title, .about__info__block__left, .raleway-semibold, .projects__card__layer__contents__title, .projects__card__layer__contents__tools, .raleway-medium, .edu-exp__card__block__right, .about__info__message, .about__info__block__right, .about__info__socials__circle i, .btn, .homeHeader__data__contents__top, .homeHeader__data__contents__bottom {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -9,7 +9,7 @@
   font-weight: 500;
 }
 
-.raleway-semibold, .projects__card__layer__contents__title {
+.raleway-semibold, .projects__card__layer__contents__title, .projects__card__layer__contents__tools {
   font-weight: 600;
 }
 
@@ -681,6 +681,15 @@ body {
 .projects__card__layer__contents__title {
   font-size: 1.6rem;
   color: #1e3a8a;
+  text-transform: capitalize;
+}
+.projects__card__layer__contents__tools {
+  display: block;
+  font-size: 1.2rem;
+  color: #1d4ed8;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .container {

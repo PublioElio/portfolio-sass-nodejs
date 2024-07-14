@@ -28,6 +28,15 @@
       &__contents {
         &__title {
           @include text-style(".raleway-semibold", 1.6rem, $blue-900);
+          text-transform: capitalize;
+        }
+
+        &__tools {
+          display: block;
+          @include text-style(".raleway-semibold", 1.2rem, $blue-700);
+          margin-top: 0.5rem;
+          text-transform: uppercase;
+          text-align: center;
         }
       }
     }
