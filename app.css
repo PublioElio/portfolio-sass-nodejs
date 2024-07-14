@@ -691,6 +691,12 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
+.projects__card__layer__link {
+  margin-top: 1rem;
+}
+.projects__card__layer__link a {
+  text-decoration: none;
+}
 
 .container {
   width: 100%;
