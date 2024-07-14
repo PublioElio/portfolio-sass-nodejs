@@ -24,6 +24,7 @@
       background: $blue-500;
       @include flexBox(center, center);
       flex-direction: column;
+      padding: 1.5rem;
     }
   }
 }
