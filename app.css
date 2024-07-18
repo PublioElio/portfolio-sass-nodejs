@@ -678,7 +678,7 @@ body {
   flex-direction: column;
   padding: 1.5rem;
   transform: scale(0);
-  transition: transform 0.5s linear;
+  transition: transform 0.2s linear;
 }
 .projects__card__layer__contents__title {
   font-size: 1.6rem;
