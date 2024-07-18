@@ -16,6 +16,12 @@
 .row {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -$gutter;
+  margin-right: -$gutter;
+}
+
+.row > * {
+  padding: $gutter;
 }
 
 @each $key, $value in $breakPoints {

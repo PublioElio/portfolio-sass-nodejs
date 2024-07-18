@@ -36,6 +36,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -573,7 +574,7 @@ body {
   }
 }
 .edu-exp__card {
-  width: 95%;
+  width: 100%;
   background: linear-gradient(120deg, #fff 50%, #eff6ff 50%);
   padding: 1.5rem;
   margin-bottom: 2rem;
@@ -757,6 +758,12 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+.row > * {
+  padding: 1.5rem;
 }
 
 @media (min-width: 1200px) {
