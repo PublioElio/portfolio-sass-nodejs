@@ -54,13 +54,17 @@
     }
     &:hover &__layer {
       transform: scale(1);
-      animation: layerAnimation 1s ease-in-out;
+      animation: layerAnimation 0.3s ease-in-out;
       @keyframes layerAnimation {
         from {
+          border-radius: 50%;
         }
         to {
+          border-radius: 0%;
         }
       }
+    }
+    &:hover &__contents {
     }
   }
 }
