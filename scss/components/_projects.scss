@@ -25,6 +25,7 @@
       @include flexBox(center, center);
       flex-direction: column;
       padding: 1.5rem;
+      transform: scale(0);
       &__contents {
         &__title {
           @include text-style(".raleway-semibold", 1.6rem, $blue-900);
@@ -45,10 +46,11 @@
           text-decoration: none;
           i {
             @include text-style(".raleway-medium", 2.5rem, $white);
-
           }
         }
       }
+    }
+    &:hover {
     }
   }
 }
