@@ -54,7 +54,7 @@
     }
     &:hover &__layer {
       transform: scale(1);
-      animation: layerAnimation 0.3s ease-in-out;
+      animation: layerAnimation 0.4s ease-in-out;
       @keyframes layerAnimation {
         from {
           border-radius: 50%;
@@ -64,7 +64,27 @@
         }
       }
     }
-    &:hover &__contents {
+    &:hover &__layer__contents {
+      animation: contentsAnimation 0.5s ease-in-out;
+      @keyframes contentsAnimation {
+        from {
+          transform: translateY(-8rem);
+        }
+        to {
+          transform: translateY(0rem);
+        }
+      }
+    }
+    &:hover &__layer__link {
+      animation: linkAnimation 0.5s ease-in-out;
+      @keyframes linkAnimation {
+        from {
+          transform: translateY(-8rem);
+        }
+        to {
+          transform: translateY(0rem);
+        }
+      }
     }
   }
 }

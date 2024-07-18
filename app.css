@@ -706,7 +706,7 @@ body {
 }
 .projects__card:hover .projects__card__layer {
   transform: scale(1);
-  animation: layerAnimation 0.3s ease-in-out;
+  animation: layerAnimation 0.4s ease-in-out;
 }
 @keyframes layerAnimation {
   from {
@@ -716,6 +716,29 @@ body {
     border-radius: 0%;
   }
 }
+.projects__card:hover .projects__card__layer__contents {
+  animation: contentsAnimation 0.5s ease-in-out;
+}
+@keyframes contentsAnimation {
+  from {
+    transform: translateY(-8rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+.projects__card:hover .projects__card__layer__link {
+  animation: linkAnimation 0.5s ease-in-out;
+}
+@keyframes linkAnimation {
+  from {
+    transform: translateY(-8rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+
 .container {
   width: 100%;
   max-width: 120rem;
