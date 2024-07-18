@@ -706,7 +706,9 @@ body {
 }
 .projects__card:hover .projects__card__layer {
   transform: scale(1);
+  animation: layerAnimation 1s ease-in-out;
 }
+@keyframes layerAnimation {}
 
 .container {
   width: 100%;
