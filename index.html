@@ -1,850 +1,746 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!--meta tags-->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Portfolio of Adriano Díaz Benítez Java Spring Boot Backend Developer"
-    />
-    <meta
-      name="keywords"
-      content="Java, Spring Boot, Developer, .NET, C#, Python"
-    />
-    <meta name="author" content="Adriano Díaz Benítez" />
 
-    <!--fonts config-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <!--meta tags-->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Adriano Díaz Benítez Java Spring Boot Backend Developer" />
+  <meta name="keywords" content="Java, Spring Boot, Developer, .NET, C#, Python" />
+  <meta name="author" content="Adriano Díaz Benítez" />
 
-    <link rel="stylesheet" href="app.css" />
-    <title>Adriano Díaz Benítez | Backend developer | Portfolio</title>
+  <!--fonts config-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
 
-    <!--favicon config-->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/assets/favicons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/assets/favicons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/assets/favicons/favicon-16x16.png"
-    />
-    <link rel="manifest" href="/assets/favicons/site.webmanifest" />
-    <link
-      rel="mask-icon"
-      href="assets/favicons/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
-    <!-- Bootstrap Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-  </head>
-  <body>
-    <!--Start Navbar-->
-    <nav class="nav" id="navbar">
-      <div class="nav__wrapper" id="navbar-wrapper">
-        <div class="nav__wrapper__logo" id="navbar-logo">
-          <a href="" class="nav__wrapper__logo__brand">Adriano Díaz Benítez</a>
-        </div>
-        <ul class="nav__wrapper__ul" id="navbar-menu-list">
-          <li class="nav__wrapper__ul__li" id="navbar-list-element-home">
-            <a href="" class="nav__wrapper__ul__li__a">Home</a>
-          </li>
-          <li class="nav__wrapper__ul__li" id="navbar-list-element-about">
-            <a href="" class="nav__wrapper__ul__li__a">About</a>
-          </li>
-          <li class="nav__wrapper__ul__li" id="navbar-list-element-experience">
-            <a href="" class="nav__wrapper__ul__li__a">Experience</a>
-          </li>
-          <li class="nav__wrapper__ul__li" id="navbar-list-element-projects">
-            <a href="" class="nav__wrapper__ul__li__a">Projects</a>
-          </li>
-          <li class="nav__wrapper__ul__li" id="navbar-list-element-skills">
-            <a href="" class="nav__wrapper__ul__li__a">Skills</a>
-          </li>
-          <li class="nav__wrapper__ul__li" id="navbar-list-element-blogs">
-            <a href="" class="nav__wrapper__ul__li__a">Blogs</a>
-          </li>
-        </ul>
-        <div class="nav__wrapper__toggle" id="navbar-toggle-icon-container">
-          <i class="bi bi-justify" id="navbar-toggle-icon"></i>
-        </div>
+  <link rel="stylesheet" href="app.css" />
+  <title>Adriano Díaz Benítez | Backend developer | Portfolio</title>
+
+  <!--favicon config-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png" />
+  <link rel="manifest" href="/assets/favicons/site.webmanifest" />
+  <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+</head>
+
+<body>
+  <!--Start Navbar-->
+  <nav class="nav" id="navbar">
+    <div class="nav__wrapper" id="navbar-wrapper">
+      <div class="nav__wrapper__logo" id="navbar-logo">
+        <a href="" class="nav__wrapper__logo__brand">Adriano Díaz Benítez</a>
       </div>
-    </nav>
-    <!--Close Navbar-->
+      <ul class="nav__wrapper__ul" id="navbar-menu-list">
+        <li class="nav__wrapper__ul__li" id="navbar-list-element-home">
+          <a href="" class="nav__wrapper__ul__li__a">Home</a>
+        </li>
+        <li class="nav__wrapper__ul__li" id="navbar-list-element-about">
+          <a href="" class="nav__wrapper__ul__li__a">About</a>
+        </li>
+        <li class="nav__wrapper__ul__li" id="navbar-list-element-experience">
+          <a href="" class="nav__wrapper__ul__li__a">Experience</a>
+        </li>
+        <li class="nav__wrapper__ul__li" id="navbar-list-element-projects">
+          <a href="" class="nav__wrapper__ul__li__a">Projects</a>
+        </li>
+        <li class="nav__wrapper__ul__li" id="navbar-list-element-skills">
+          <a href="" class="nav__wrapper__ul__li__a">Skills</a>
+        </li>
+        <li class="nav__wrapper__ul__li" id="navbar-list-element-blogs">
+          <a href="" class="nav__wrapper__ul__li__a">Blogs</a>
+        </li>
+      </ul>
+      <div class="nav__wrapper__toggle" id="navbar-toggle-icon-container">
+        <i class="bi bi-justify" id="navbar-toggle-icon"></i>
+      </div>
+    </div>
+  </nav>
+  <!--Close Navbar-->
 
-    <!-- Start Header-->
-    <header class="homeHeader" id="home-page-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-xlg-6 col-lg-6 col-md-12">
-            <div class="homeHeader__data">
-              <div class="homeHeader__data__contents">
-                <h5 class="homeHeader__data__contents__top">Hi, mi name is</h5>
-                <h1
-                  class="homeHeader__data__contents__heading"
-                  id="name-h1-element"
-                ></h1>
-                <h4 class="homeHeader__data__contents__bottom">
-                  Backend Developer | Java | Spring Boot
-                </h4>
-                <div class="homeHeader__data__contents__links">
-                  <a
-                    href="./assets/files/Adriano-Díaz-Benítez-BACKEND-DEVELOPER-CV.pdf"
-                    class="btn btn-default"
-                    target="_blank"
-                    >Download CV</a
-                  >&nbsp;&nbsp;&nbsp;
-                  <button
-                    class="btn btn-dark home-modal-btn"
-                    id="home-modal-btn"
-                  >
-                    Contact me
-                  </button>
-                </div>
+  <!-- Start Header-->
+  <header class="homeHeader" id="home-page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xlg-6 col-lg-6 col-md-12">
+          <div class="homeHeader__data">
+            <div class="homeHeader__data__contents">
+              <h5 class="homeHeader__data__contents__top">Hi, mi name is</h5>
+              <h1 class="homeHeader__data__contents__heading" id="name-h1-element"></h1>
+              <h4 class="homeHeader__data__contents__bottom">
+                Backend Developer | Java | Spring Boot
+              </h4>
+              <div class="homeHeader__data__contents__links">
+                <a href="./assets/files/Adriano-Díaz-Benítez-BACKEND-DEVELOPER-CV.pdf" class="btn btn-default"
+                  target="_blank">Download CV</a>&nbsp;&nbsp;&nbsp;
+                <button class="btn btn-dark home-modal-btn" id="home-modal-btn">
+                  Contact me
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </header>
-    <!-- Close Header-->
+    </div>
+  </header>
+  <!-- Close Header-->
 
-    <!-- Modal -->
-    <section class="homeModal" id="home-modal">
-      <div class="homeModal__wrapper">
-        <i
-          class="bi bi-x-circle homeModal__wrapper__close"
-          id="homeModalCloseBtn"
-        ></i>
-        <!-- Modal Image -->
-        <div class="homeModal__wrapper__image">
-          <img
-            src="./assets/img/user-1.jpg"
-            alt="Adriano Díaz Benítez backend developer picture"
-            class="homeModal__wrapper__image__img"
-          />
-        </div>
-        <!-- Close Modal Image -->
-
-        <!-- Modal Content -->
-        <div class="homeModal__wrapper__contents">
-          <h1 class="heading">contact with me</h1>
-          <p class="homeModal__wrapper__contents__p">
-            Backend developer specialized in Java and Spring Boot. I have
-            knowledge in Python and C# (.Net) and experience in functional test
-            automation projects with Selenium (Java and Python). Over 30
-            repositories on my GitHub where you can see my personal projects.
-            Passionate about technology and continuous learning, I feel
-            comfortable working in international environments (C1 English
-            Certification by Cambridge).
-          </p>
-          <div class="homeModal__wrapper__contents__block">
-            <span class="homeModal__wrapper__contents__block__left">email</span>
-            <span class="homeModal__wrapper__contents__block__right"
-              >adrianodiazb@gmail.com</span
-            >
-          </div>
-          <div class="homeModal__wrapper__contents__block">
-            <span class="homeModal__wrapper__contents__block__left">phone</span>
-            <span class="homeModal__wrapper__contents__block__right"
-              >+34 652 111 838</span
-            >
-          </div>
-        </div>
-        <!-- Close Modal Content -->
+  <!-- Modal -->
+  <section class="homeModal" id="home-modal">
+    <div class="homeModal__wrapper">
+      <i class="bi bi-x-circle homeModal__wrapper__close" id="homeModalCloseBtn"></i>
+      <!-- Modal Image -->
+      <div class="homeModal__wrapper__image">
+        <img src="./assets/img/user-1.jpg" alt="Adriano Díaz Benítez backend developer picture"
+          class="homeModal__wrapper__image__img" />
       </div>
-    </section>
-    <!-- Close modal -->
+      <!-- Close Modal Image -->
 
-    <!-- Section About -->
-    <section class="about" id="about-section">
-      <div class="container">
-        <div class="row items-center">
-          <div class="col-xlg-6 col-lg-6 col-sm-12">
-            <div class="about__image">
-              <img
-                src="assets/img/large.jpg"
-                alt="Adriano Díaz Benítez picture (large image) - backend developer"
-                id="adrianoDiazPictureLarge"
-              />
-
-              <div class="about__image__small">
-                <img
-                  src="assets/img/small.jpg"
-                  alt="Adriano Díaz Benítez picture (small image) - backend developer"
-                  id="adrianoDiazPictureSmall"
-                />
-              </div>
-              <!-- Close about__image__small -->
-            </div>
-            <!-- Close about__image-->
-          </div>
-          <!-- Close column -->
-
-          <div class="col-xlg-6 col-lg-6 col-sm-12">
-            <h1 class="heading">About me</h1>
-            <div class="about__info">
-              <p class="about__info__message">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                laudantium architecto consequuntur nobis eligendi molestias,
-                consequatur reprehenderit eveniet libero? Eum culpa nobis
-                molestiae neque fugit minima, ex soluta nisi rem. Voluptas, quae
-                labore suscipit rerum corrupti quisquam? doloremque veniam
-                explicabo in facilis nesciunt repudiandae dicta non ab?
-              </p>
-              <div class="about__info__block">
-                <span class="about__info__block__left"> name </span>
-
-                <span class="about__info__block__right">
-                  Here goes your name
-                </span>
-              </div>
-              <!-- Close about__info__block 1 -->
-              <div class="about__info__block">
-                <span class="about__info__block__left"> nationality </span>
-
-                <span class="about__info__block__right">
-                  here goes your nationality
-                </span>
-              </div>
-              <!-- Close about__info__block 2 -->
-              <div class="about__info__block">
-                <span class="about__info__block__left"> phone </span>
-
-                <span class="about__info__block__right"> 985 959 959 959 </span>
-              </div>
-              <!-- Close about__info__block 3 -->
-              <div class="about__info__block">
-                <span class="about__info__block__left"> email </span>
-
-                <span class="about__info__block__right lowercase">
-                  example@email.com
-                </span>
-              </div>
-              <!-- Close about__info__block 4 -->
-              <div
-                class="about__info__socials"
-                id="home-social-media-icons-container"
-              >
-                <a
-                  href="https://www.linkedin.com/in/adrianodiaz/"
-                  class="about__info__socials__circle"
-                  id="linkedin"
-                  target="_blank"
-                >
-                  <i class="bi bi-linkedin"></i>
-                </a>
-                <a
-                  href="https://github.com/PublioElio"
-                  class="about__info__socials__circle"
-                  id="github"
-                  target="_blank"
-                >
-                  <i class="bi bi-github"></i>
-                </a>
-                <a
-                  href="https://www.youtube.com/c/AdrianoDíazPublioElio"
-                  class="about__info__socials__circle"
-                  id="youtube"
-                  target="_blank"
-                >
-                  <i class="bi bi-youtube"></i>
-                </a>
-              </div>
-              <!-- Close about__info__socials -->
-            </div>
-          </div>
-          <!-- Close column -->
+      <!-- Modal Content -->
+      <div class="homeModal__wrapper__contents">
+        <h1 class="heading">contact with me</h1>
+        <p class="homeModal__wrapper__contents__p">
+          Backend developer specialized in Java and Spring Boot. I have
+          knowledge in Python and C# (.Net) and experience in functional test
+          automation projects with Selenium (Java and Python). Over 30
+          repositories on my GitHub where you can see my personal projects.
+          Passionate about technology and continuous learning, I feel
+          comfortable working in international environments (C1 English
+          Certification by Cambridge).
+        </p>
+        <div class="homeModal__wrapper__contents__block">
+          <span class="homeModal__wrapper__contents__block__left">email</span>
+          <span class="homeModal__wrapper__contents__block__right">adrianodiazb@gmail.com</span>
         </div>
-        <!-- Close row -->
-      </div>
-    </section>
-    <!-- Close Section About -->
-
-    <!-- Section Education & Experience -->
-    <section class="edu-exp" id="edu-exp-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-xlg-6 col-lg-12">
-            <h1 class="heading">education</h1>
-            <div class="row edu-exp--row1">
-              <div class="col-xlg-6 col-lg-4 col-md-6 col-sm-12">
-                <div class="edu-exp__card">
-                  <h3 class="edu-exp__card__title">
-                    multiplatform application development
-                  </h3>
-                  <div class="edu-exp__card__block">
-                    <span
-                      class="edu-exp__card__block__left edu-exp__card__block__left--studies"
-                    >
-                      <i class="bi bi-mortarboard-fill"></i>
-                    </span>
-                    <span class="edu-exp__card__block__right">
-                      i.e.s. belén
-                    </span>
-                  </div>
-                  <!-- Close Education Card Block-->
-                  <div class="edu-exp__card__block">
-                    <span
-                      class="edu-exp__card__block__left edu-exp__card__block__left--calendar"
-                    >
-                      <i class="bi bi-calendar-event-fill"></i>
-                    </span>
-                    <span class="edu-exp__card__block__right">
-                      2022 - 2024
-                    </span>
-                  </div>
-                  <!-- Close Education Card Block-->
-                </div>
-                <!-- Close Education Card -->
-              </div>
-              <!-- Close Column -->
-
-              <div class="col-xlg-6 col-lg-4 col-md-6 col-sm-12">
-                <div class="edu-exp__card">
-                  <h3 class="edu-exp__card__title">
-                    master's in corporate communication management
-                  </h3>
-                  <div class="edu-exp__card__block">
-                    <span
-                      class="edu-exp__card__block__left edu-exp__card__block__left--studies"
-                    >
-                      <i class="bi bi-mortarboard-fill"></i>
-                    </span>
-                    <span class="edu-exp__card__block__right">
-                      universitat de barcelona
-                    </span>
-                  </div>
-                  <!-- Close Education Card Block-->
-                  <div class="edu-exp__card__block">
-                    <span
-                      class="edu-exp__card__block__left edu-exp__card__block__left--calendar"
-                    >
-                      <i class="bi bi-calendar-event-fill"></i>
-                    </span>
-                    <span class="edu-exp__card__block__right">
-                      2012 - 2013
-                    </span>
-                  </div>
-                  <!-- Close Education Card Block-->
-                </div>
-                <!-- Close Education Card -->
-              </div>
-              <!-- Close Column -->
-
-              <div class="col-xlg-6 col-lg-4 col-md-6 col-sm-12">
-                <div class="edu-exp__card">
-                  <h3 class="edu-exp__card__title">
-                    bachelor’s degree in journalism
-                  </h3>
-                  <div class="edu-exp__card__block">
-                    <span
-                      class="edu-exp__card__block__left edu-exp__card__block__left--studies"
-                    >
-                      <i class="bi bi-mortarboard-fill"></i>
-                    </span>
-                    <span class="edu-exp__card__block__right">
-                      univesidad de málaga
-                    </span>
-                  </div>
-                  <!-- Close Education Card Block-->
-                  <div class="edu-exp__card__block">
-                    <span
-                      class="edu-exp__card__block__left edu-exp__card__block__left--calendar"
-                    >
-                      <i class="bi bi-calendar-event-fill"></i>
-                    </span>
-                    <span class="edu-exp__card__block__right">
-                      2005 - 2009
-                    </span>
-                  </div>
-                  <!-- Close Education Card Block-->
-                </div>
-                <!-- Close Education Card -->
-              </div>
-              <!-- Close Column -->
-
-              <div class="col-xlg-6 col-lg-4 col-md-6 col-sm-12">
-                <div class="edu-exp__card">
-                  <h3 class="edu-exp__card__title">
-                    multiplatform application development
-                  </h3>
-                  <div class="edu-exp__card__block">
-                    <span
-                      class="edu-exp__card__block__left edu-exp__card__block__left--studies"
-                    >
-                      <i class="bi bi-mortarboard-fill"></i>
-                    </span>
-                    <span class="edu-exp__card__block__right">
-                      i.e.s. belén
-                    </span>
-                  </div>
-                  <!-- Close Education Card Block-->
-                  <div class="edu-exp__card__block">
-                    <span
-                      class="edu-exp__card__block__left edu-exp__card__block__left--calendar"
-                    >
-                      <i class="bi bi-calendar-event-fill"></i>
-                    </span>
-                    <span class="edu-exp__card__block__right">
-                      2022 - 2024
-                    </span>
-                  </div>
-                  <!-- Close Education Card Block-->
-                </div>
-                <!-- Close Education Card -->
-              </div>
-              <!-- Close Column -->
-            </div>
-            <!-- Close Row -->
-          </div>
-          <!-- Close Column -->
-          <div class="col-xlg-6 col-lg-12">
-            <h1 class="heading">experience</h1>
-            <div class="row edu-exp--row2">
-              <div class="col-xlg-6 col-lg-4 col-md-6 col-sm-12">
-                <div class="edu-exp__card">
-                  <h3 class="edu-exp__card__title">
-                    QA automation engineer | java | python | selenium
-                  </h3>
-                  <div class="edu-exp__card__block">
-                    <span
-                      class="edu-exp__card__block__left edu-exp__card__block__left--building"
-                    >
-                      <i class="bi bi-buildings-fill"></i>
-                    </span>
-                    <span class="edu-exp__card__block__right"> sogeti </span>
-                  </div>
-                  <!-- Close Experience Card Block-->
-                  <div class="edu-exp__card__block">
-                    <span
-                      class="edu-exp__card__block__left edu-exp__card__block__left--calendar"
-                    >
-                      <i class="bi bi-calendar-event-fill"></i>
-                    </span>
-                    <span class="edu-exp__card__block__right">
-                      mar. 2024 - jun. 2024
-                    </span>
-                  </div>
-                  <!-- Close Experience Card Block-->
-                </div>
-                <!-- Close Experience Card -->
-              </div>
-              <!-- Close Column -->
-
-              <div class="col-xlg-6 col-lg-4 col-md-6 col-sm-12">
-                <div class="edu-exp__card">
-                  <h3 class="edu-exp__card__title">
-                    online programming teacher | java
-                  </h3>
-                  <div class="edu-exp__card__block">
-                    <span
-                      class="edu-exp__card__block__left edu-exp__card__block__left--building"
-                    >
-                      <i class="bi bi-buildings-fill"></i>
-                    </span>
-                    <span class="edu-exp__card__block__right">
-                      grupo aspasia
-                    </span>
-                  </div>
-                  <!-- Close Experience Card Block-->
-                  <div class="edu-exp__card__block">
-                    <span
-                      class="edu-exp__card__block__left edu-exp__card__block__left--calendar"
-                    >
-                      <i class="bi bi-calendar-event-fill"></i>
-                    </span>
-                    <span class="edu-exp__card__block__right">
-                      nov. 2020 - mar. 2024
-                    </span>
-                  </div>
-                  <!-- Close Experience Card Block-->
-                </div>
-                <!-- Close Experience Card -->
-              </div>
-              <!-- Close Column -->
-
-              <div class="col-xlg-6 col-lg-4 col-md-6 col-sm-12">
-                <div class="edu-exp__card">
-                  <h3 class="edu-exp__card__title">
-                    programming teacher | java | spring boot | python
-                  </h3>
-                  <div class="edu-exp__card__block">
-                    <span
-                      class="edu-exp__card__block__left edu-exp__card__block__left--building"
-                    >
-                      <i class="bi bi-buildings-fill"></i>
-                    </span>
-                    <span class="edu-exp__card__block__right">
-                      grupo alce
-                    </span>
-                  </div>
-                  <!-- Close Experience Card Block-->
-                  <div class="edu-exp__card__block">
-                    <span
-                      class="edu-exp__card__block__left edu-exp__card__block__left--calendar"
-                    >
-                      <i class="bi bi-calendar-event-fill"></i>
-                    </span>
-                    <span class="edu-exp__card__block__right">
-                      dec. 2012 - mar. 2018
-                    </span>
-                  </div>
-                  <!-- Close Experience Card Block-->
-                </div>
-                <!-- Close Experience Card -->
-              </div>
-              <!-- Close Column -->
-
-              <div class="col-xlg-6 col-lg-4 col-md-6 col-sm-12">
-                <div class="edu-exp__card">
-                  <h3 class="edu-exp__card__title">
-                    backend developer | java | spring
-                  </h3>
-                  <div class="edu-exp__card__block">
-                    <span
-                      class="edu-exp__card__block__left edu-exp__card__block__left--building"
-                    >
-                      <i class="bi bi-buildings-fill"></i>
-                    </span>
-                    <span class="edu-exp__card__block__right">
-                      integra quatro
-                    </span>
-                  </div>
-                  <!-- Close Experience Card Block-->
-                  <div class="edu-exp__card__block">
-                    <span
-                      class="edu-exp__card__block__left edu-exp__card__block__left--calendar"
-                    >
-                      <i class="bi bi-calendar-event-fill"></i>
-                    </span>
-                    <span class="edu-exp__card__block__right">
-                      nov. 2016 - jan. 2018
-                    </span>
-                  </div>
-                  <!-- Close Experience Card Block-->
-                </div>
-                <!-- Close Experience Card -->
-              </div>
-              <!-- Close Column -->
-            </div>
-            <!-- Close Row -->
-          </div>
-          <!-- Close Column -->
+        <div class="homeModal__wrapper__contents__block">
+          <span class="homeModal__wrapper__contents__block__left">phone</span>
+          <span class="homeModal__wrapper__contents__block__right">+34 652 111 838</span>
         </div>
-        <!-- Close Row -->
       </div>
-    </section>
-    <!-- Close Section Education & Experience -->
+      <!-- Close Modal Content -->
+    </div>
+  </section>
+  <!-- Close modal -->
 
-    <!-- Section Projects -->
-    <section class="projects" id="personal-projects-section">
-      <div class="container">
-        <h1 class="heading" id="personalProjectsHeading">personal projects</h1>
-          <div class="row">
-            <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
-              <div class="projects__card">
-                <div class="projects__card__image">
-                  <img
-                    src="./assets/img/projects/project1.jpg"
-                    alt="Image of a development project created by Adriano Díaz Benítez"
-                    id="projectCardImg1"
-                  />
+  <!-- Section About -->
+  <section class="about" id="about-section">
+    <div class="container">
+      <div class="row items-center">
+        <div class="col-xlg-6 col-lg-6 col-sm-12">
+          <div class="about__image">
+            <img src="assets/img/large.jpg" alt="Adriano Díaz Benítez picture (large image) - backend developer"
+              id="adrianoDiazPictureLarge" />
+
+            <div class="about__image__small">
+              <img src="assets/img/small.jpg" alt="Adriano Díaz Benítez picture (small image) - backend developer"
+                id="adrianoDiazPictureSmall" />
+            </div>
+            <!-- Close about__image__small -->
+          </div>
+          <!-- Close about__image-->
+        </div>
+        <!-- Close column -->
+
+        <div class="col-xlg-6 col-lg-6 col-sm-12">
+          <h1 class="heading">About me</h1>
+          <div class="about__info">
+            <p class="about__info__message">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              laudantium architecto consequuntur nobis eligendi molestias,
+              consequatur reprehenderit eveniet libero? Eum culpa nobis
+              molestiae neque fugit minima, ex soluta nisi rem. Voluptas, quae
+              labore suscipit rerum corrupti quisquam? doloremque veniam
+              explicabo in facilis nesciunt repudiandae dicta non ab?
+            </p>
+            <div class="about__info__block">
+              <span class="about__info__block__left"> name </span>
+
+              <span class="about__info__block__right">
+                Here goes your name
+              </span>
+            </div>
+            <!-- Close about__info__block 1 -->
+            <div class="about__info__block">
+              <span class="about__info__block__left"> nationality </span>
+
+              <span class="about__info__block__right">
+                here goes your nationality
+              </span>
+            </div>
+            <!-- Close about__info__block 2 -->
+            <div class="about__info__block">
+              <span class="about__info__block__left"> phone </span>
+
+              <span class="about__info__block__right"> 985 959 959 959 </span>
+            </div>
+            <!-- Close about__info__block 3 -->
+            <div class="about__info__block">
+              <span class="about__info__block__left"> email </span>
+
+              <span class="about__info__block__right lowercase">
+                example@email.com
+              </span>
+            </div>
+            <!-- Close about__info__block 4 -->
+            <div class="about__info__socials" id="home-social-media-icons-container">
+              <a href="https://www.linkedin.com/in/adrianodiaz/" class="about__info__socials__circle" id="linkedin"
+                target="_blank">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="https://github.com/PublioElio" class="about__info__socials__circle" id="github" target="_blank">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://www.youtube.com/c/AdrianoDíazPublioElio" class="about__info__socials__circle"
+                id="youtube" target="_blank">
+                <i class="bi bi-youtube"></i>
+              </a>
+            </div>
+            <!-- Close about__info__socials -->
+          </div>
+        </div>
+        <!-- Close column -->
+      </div>
+      <!-- Close row -->
+    </div>
+  </section>
+  <!-- Close Section About -->
+
+  <!-- Section Education & Experience -->
+  <section class="edu-exp" id="edu-exp-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-xlg-6 col-lg-12">
+          <h1 class="heading">education</h1>
+          <div class="row edu-exp--row1">
+            <div class="col-xlg-6 col-lg-4 col-md-6 col-sm-12">
+              <div class="edu-exp__card">
+                <h3 class="edu-exp__card__title">
+                  multiplatform application development
+                </h3>
+                <div class="edu-exp__card__block">
+                  <span class="edu-exp__card__block__left edu-exp__card__block__left--studies">
+                    <i class="bi bi-mortarboard-fill"></i>
+                  </span>
+                  <span class="edu-exp__card__block__right">
+                    i.e.s. belén
+                  </span>
                 </div>
-                <!-- Close pojects__card__image-->
-                <div class="projects__card__layer">
-                  <div class="projects__card__layer__contents">
-                    <h3 class="projects__card__layer__contents__title">
-                      ecommerce application
-                    </h3>
-                    <span class="projects__card__layer__contents__tools">
-                      nodejs, mongodb, tailwind
-                    </span>
-                  </div>
-                  <!-- Close pojects__card__layer__contents-->
-                  <div class="projects__card__layer__link">
-                    <a href=""><i class="bi bi-github"></i></a>
-                  </div>
-                  <!-- Close pojects__card__layer__link-->
+                <!-- Close Education Card Block-->
+                <div class="edu-exp__card__block">
+                  <span class="edu-exp__card__block__left edu-exp__card__block__left--calendar">
+                    <i class="bi bi-calendar-event-fill"></i>
+                  </span>
+                  <span class="edu-exp__card__block__right">
+                    2022 - 2024
+                  </span>
                 </div>
-                <!-- Close pojects__card__layer-->
+                <!-- Close Education Card Block-->
               </div>
-              <!-- Close pojects__card-->
+              <!-- Close Education Card -->
             </div>
             <!-- Close Column -->
 
-            <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
-              <div class="projects__card">
-                <div class="projects__card__image">
-                  <img
-                    src="./assets/img/projects/project2.jpg"
-                    alt="Image of a development project created by Adriano Díaz Benítez"
-                    id="projectCardImg2"
-                    />
+            <div class="col-xlg-6 col-lg-4 col-md-6 col-sm-12">
+              <div class="edu-exp__card">
+                <h3 class="edu-exp__card__title">
+                  master's in corporate communication management
+                </h3>
+                <div class="edu-exp__card__block">
+                  <span class="edu-exp__card__block__left edu-exp__card__block__left--studies">
+                    <i class="bi bi-mortarboard-fill"></i>
+                  </span>
+                  <span class="edu-exp__card__block__right">
+                    universitat de barcelona
+                  </span>
                 </div>
-                <!-- Close pojects__card__image-->
-                <div class="projects__card__layer">
-                  <div class="projects__card__layer__contents">
-                    <h3 class="projects__card__layer__contents__title">
-                      social media app
-                    </h3>
-                    <span class="projects__card__layer__contents__tools">
-                      nodejs, vuejs, vuetify
-                    </span>
-                  </div>
-                  <!-- Close pojects__card__layer__contents-->
-                  <div class="projects__card__layer__link">
-                    <a href=""><i class="bi bi-github"></i></a>
-                  </div>
-                  <!-- Close pojects__card__layer__link-->
+                <!-- Close Education Card Block-->
+                <div class="edu-exp__card__block">
+                  <span class="edu-exp__card__block__left edu-exp__card__block__left--calendar">
+                    <i class="bi bi-calendar-event-fill"></i>
+                  </span>
+                  <span class="edu-exp__card__block__right">
+                    2012 - 2013
+                  </span>
                 </div>
-                <!-- Close pojects__card__layer-->
+                <!-- Close Education Card Block-->
               </div>
-              <!-- Close pojects__card-->
+              <!-- Close Education Card -->
             </div>
             <!-- Close Column -->
 
-            <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
-              <div class="projects__card">
-                <div class="projects__card__image">
-                  <img
-                    src="./assets/img/projects/project3.jpg"
-                    alt="Image of a development project created by Adriano Díaz Benítez"
-                    id="projectCardImg3"
-                    />
+            <div class="col-xlg-6 col-lg-4 col-md-6 col-sm-12">
+              <div class="edu-exp__card">
+                <h3 class="edu-exp__card__title">
+                  bachelor’s degree in journalism
+                </h3>
+                <div class="edu-exp__card__block">
+                  <span class="edu-exp__card__block__left edu-exp__card__block__left--studies">
+                    <i class="bi bi-mortarboard-fill"></i>
+                  </span>
+                  <span class="edu-exp__card__block__right">
+                    univesidad de málaga
+                  </span>
                 </div>
-                <!-- Close pojects__card__image-->
-                <div class="projects__card__layer">
-                  <div class="projects__card__layer__contents">
-                    <h3 class="projects__card__layer__contents__title">
-                      ecommerce mobile app
-                    </h3>
-                    <span class="projects__card__layer__contents__tools">
-                      react, firebase, kotlin
-                    </span>
-                  </div>
-                  <!-- Close pojects__card__layer__contents-->
-                  <div class="projects__card__layer__link">
-                    <a href=""><i class="bi bi-github"></i></a>
-                  </div>
-                  <!-- Close pojects__card__layer__link-->
+                <!-- Close Education Card Block-->
+                <div class="edu-exp__card__block">
+                  <span class="edu-exp__card__block__left edu-exp__card__block__left--calendar">
+                    <i class="bi bi-calendar-event-fill"></i>
+                  </span>
+                  <span class="edu-exp__card__block__right">
+                    2005 - 2009
+                  </span>
                 </div>
-                <!-- Close pojects__card__layer-->
+                <!-- Close Education Card Block-->
               </div>
-              <!-- Close pojects__card-->
+              <!-- Close Education Card -->
             </div>
             <!-- Close Column -->
 
-            <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
-              <div class="projects__card">
-                <div class="projects__card__image">
-                  <img
-                    src="./assets/img/projects/project4.jpg"
-                    alt="Image of a development project created by Adriano Díaz Benítez"
-                    id="projectCardImg4"
-                    />
+            <div class="col-xlg-6 col-lg-4 col-md-6 col-sm-12">
+              <div class="edu-exp__card">
+                <h3 class="edu-exp__card__title">
+                  multiplatform application development
+                </h3>
+                <div class="edu-exp__card__block">
+                  <span class="edu-exp__card__block__left edu-exp__card__block__left--studies">
+                    <i class="bi bi-mortarboard-fill"></i>
+                  </span>
+                  <span class="edu-exp__card__block__right">
+                    i.e.s. belén
+                  </span>
                 </div>
-                <!-- Close pojects__card__image-->
-                <div class="projects__card__layer">
-                  <div class="projects__card__layer__contents">
-                    <h3 class="projects__card__layer__contents__title">
-                      real state app
-                    </h3>
-                    <span class="projects__card__layer__contents__tools">
-                      laravel, mysql, tailwind
-                    </span>
-                  </div>
-                  <!-- Close pojects__card__layer__contents-->
-                  <div class="projects__card__layer__link">
-                    <a href=""><i class="bi bi-github"></i></a>
-                  </div>
-                  <!-- Close pojects__card__layer__link-->
+                <!-- Close Education Card Block-->
+                <div class="edu-exp__card__block">
+                  <span class="edu-exp__card__block__left edu-exp__card__block__left--calendar">
+                    <i class="bi bi-calendar-event-fill"></i>
+                  </span>
+                  <span class="edu-exp__card__block__right">
+                    2022 - 2024
+                  </span>
                 </div>
-                <!-- Close pojects__card__layer-->
+                <!-- Close Education Card Block-->
               </div>
-              <!-- Close pojects__card-->
+              <!-- Close Education Card -->
             </div>
             <!-- Close Column -->
-
-            <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
-              <div class="projects__card">
-                <div class="projects__card__image">
-                  <img
-                    src="./assets/img/projects/project5.jpg"
-                    alt="Image of a development project created by Adriano Díaz Benítez"
-                    id="projectCardImg5"
-                    />
-                </div>
-                <!-- Close pojects__card__image-->
-                <div class="projects__card__layer">
-                  <div class="projects__card__layer__contents">
-                    <h3 class="projects__card__layer__contents__title">
-                      photo sharing app
-                    </h3>
-                    <span class="projects__card__layer__contents__tools">
-                      nodejs, mongodb, react
-                    </span>
-                  </div>
-                  <!-- Close pojects__card__layer__contents-->
-                  <div class="projects__card__layer__link">
-                    <a href=""><i class="bi bi-github"></i></a>
-                  </div>
-                  <!-- Close pojects__card__layer__link-->
-                </div>
-                <!-- Close pojects__card__layer-->
-              </div>
-              <!-- Close pojects__card-->
-            </div>
-            <!-- Close Column -->
-
-            <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
-              <div class="projects__card">
-                <div class="projects__card__image">
-                  <img
-                    src="./assets/img/projects/project6.jpg"
-                    alt="Image of a development project created by Adriano Díaz Benítez"
-                    id="projectCardImg6"
-                    />
-                </div>
-                <!-- Close pojects__card__image-->
-                <div class="projects__card__layer">
-                  <div class="projects__card__layer__contents">
-                    <h3 class="projects__card__layer__contents__title">
-                      restaurant application
-                    </h3>
-                    <span class="projects__card__layer__contents__tools">
-                      nextjs, reactjs, bootstrap
-                    </span>
-                  </div>
-                  <!-- Close pojects__card__layer__contents-->
-                  <div class="projects__card__layer__link">
-                    <a href=""><i class="bi bi-github"></i></a>
-                  </div>
-                  <!-- Close pojects__card__layer__link-->
-                </div>
-                <!-- Close pojects__card__layer-->
-              </div>
-              <!-- Close pojects__card-->
-            </div>
-            <!-- Close Column -->
-
-            <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
-              <div class="projects__card">
-                <div class="projects__card__image">
-                  <img
-                    src="./assets/img/projects/project7.jpg"
-                    alt="Image of a development project created by Adriano Díaz Benítez"
-                    id="projectCardImg7"
-                    />
-                </div>
-                <!-- Close pojects__card__image-->
-                <div class="projects__card__layer">
-                  <div class="projects__card__layer__contents">
-                    <h3 class="projects__card__layer__contents__title">
-                      travel application
-                    </h3>
-                    <span class="projects__card__layer__contents__tools">
-                      php, mysql, bootstrap
-                    </span>
-                  </div>
-                  <!-- Close pojects__card__layer__contents-->
-                  <div class="projects__card__layer__link">
-                    <a href=""><i class="bi bi-github"></i></a>
-                  </div>
-                  <!-- Close pojects__card__layer__link-->
-                </div>
-                <!-- Close pojects__card__layer-->
-              </div>
-              <!-- Close pojects__card-->
-            </div>
-            <!-- Close Column -->
-
-            <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
-              <div class="projects__card">
-                <div class="projects__card__image">
-                  <img
-                    src="./assets/img/projects/project8.jpg"
-                    alt="Image of a development project created by Adriano Díaz Benítez"
-                    id="projectCardImg8"
-                    />
-                </div>
-                <!-- Close pojects__card__image-->
-                <div class="projects__card__layer">
-                  <div class="projects__card__layer__contents">
-                    <h3 class="projects__card__layer__contents__title">
-                      bitcoin application
-                    </h3>
-                    <span class="projects__card__layer__contents__tools">
-                      python, mysql, tailwind
-                    </span>
-                  </div>
-                  <!-- Close pojects__card__layer__contents-->
-                  <div class="projects__card__layer__link">
-                    <a href=""><i class="bi bi-github"></i></a>
-                  </div>
-                  <!-- Close pojects__card__layer__link-->
-                </div>
-                <!-- Close pojects__card__layer-->
-              </div>
-              <!-- Close pojects__card-->
-            </div>
-            <!-- Close Column -->
-
-
           </div>
           <!-- Close Row -->
-        </h1>
+        </div>
+        <!-- Close Column -->
+        <div class="col-xlg-6 col-lg-12">
+          <h1 class="heading">experience</h1>
+          <div class="row edu-exp--row2">
+            <div class="col-xlg-6 col-lg-4 col-md-6 col-sm-12">
+              <div class="edu-exp__card">
+                <h3 class="edu-exp__card__title">
+                  QA automation engineer | java | python | selenium
+                </h3>
+                <div class="edu-exp__card__block">
+                  <span class="edu-exp__card__block__left edu-exp__card__block__left--building">
+                    <i class="bi bi-buildings-fill"></i>
+                  </span>
+                  <span class="edu-exp__card__block__right"> sogeti </span>
+                </div>
+                <!-- Close Experience Card Block-->
+                <div class="edu-exp__card__block">
+                  <span class="edu-exp__card__block__left edu-exp__card__block__left--calendar">
+                    <i class="bi bi-calendar-event-fill"></i>
+                  </span>
+                  <span class="edu-exp__card__block__right">
+                    mar. 2024 - jun. 2024
+                  </span>
+                </div>
+                <!-- Close Experience Card Block-->
+              </div>
+              <!-- Close Experience Card -->
+            </div>
+            <!-- Close Column -->
+
+            <div class="col-xlg-6 col-lg-4 col-md-6 col-sm-12">
+              <div class="edu-exp__card">
+                <h3 class="edu-exp__card__title">
+                  online programming teacher | java
+                </h3>
+                <div class="edu-exp__card__block">
+                  <span class="edu-exp__card__block__left edu-exp__card__block__left--building">
+                    <i class="bi bi-buildings-fill"></i>
+                  </span>
+                  <span class="edu-exp__card__block__right">
+                    grupo aspasia
+                  </span>
+                </div>
+                <!-- Close Experience Card Block-->
+                <div class="edu-exp__card__block">
+                  <span class="edu-exp__card__block__left edu-exp__card__block__left--calendar">
+                    <i class="bi bi-calendar-event-fill"></i>
+                  </span>
+                  <span class="edu-exp__card__block__right">
+                    nov. 2020 - mar. 2024
+                  </span>
+                </div>
+                <!-- Close Experience Card Block-->
+              </div>
+              <!-- Close Experience Card -->
+            </div>
+            <!-- Close Column -->
+
+            <div class="col-xlg-6 col-lg-4 col-md-6 col-sm-12">
+              <div class="edu-exp__card">
+                <h3 class="edu-exp__card__title">
+                  programming teacher | java | spring boot | python
+                </h3>
+                <div class="edu-exp__card__block">
+                  <span class="edu-exp__card__block__left edu-exp__card__block__left--building">
+                    <i class="bi bi-buildings-fill"></i>
+                  </span>
+                  <span class="edu-exp__card__block__right">
+                    grupo alce
+                  </span>
+                </div>
+                <!-- Close Experience Card Block-->
+                <div class="edu-exp__card__block">
+                  <span class="edu-exp__card__block__left edu-exp__card__block__left--calendar">
+                    <i class="bi bi-calendar-event-fill"></i>
+                  </span>
+                  <span class="edu-exp__card__block__right">
+                    dec. 2012 - mar. 2018
+                  </span>
+                </div>
+                <!-- Close Experience Card Block-->
+              </div>
+              <!-- Close Experience Card -->
+            </div>
+            <!-- Close Column -->
+
+            <div class="col-xlg-6 col-lg-4 col-md-6 col-sm-12">
+              <div class="edu-exp__card">
+                <h3 class="edu-exp__card__title">
+                  backend developer | java | spring
+                </h3>
+                <div class="edu-exp__card__block">
+                  <span class="edu-exp__card__block__left edu-exp__card__block__left--building">
+                    <i class="bi bi-buildings-fill"></i>
+                  </span>
+                  <span class="edu-exp__card__block__right">
+                    integra quatro
+                  </span>
+                </div>
+                <!-- Close Experience Card Block-->
+                <div class="edu-exp__card__block">
+                  <span class="edu-exp__card__block__left edu-exp__card__block__left--calendar">
+                    <i class="bi bi-calendar-event-fill"></i>
+                  </span>
+                  <span class="edu-exp__card__block__right">
+                    nov. 2016 - jan. 2018
+                  </span>
+                </div>
+                <!-- Close Experience Card Block-->
+              </div>
+              <!-- Close Experience Card -->
+            </div>
+            <!-- Close Column -->
+          </div>
+          <!-- Close Row -->
+        </div>
+        <!-- Close Column -->
       </div>
-    </section>
-    <!-- Close Section Projects -->
+      <!-- Close Row -->
+    </div>
+  </section>
+  <!-- Close Section Education & Experience -->
 
-    <!-- Section Skills -->
-<section class="skills" id="home-skills-section">
-<div class="container">
-  <div class="row">
-<div class="col-xlg-6 col-lg-6 col-sm-12">
-  <div class="skills__contents">
-<h1 class="skills__contents__heading">
-I have advanced skills in developing and programming
-</h1>
-<p class="skills__contents__message">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-Veniam, earum! 
-Aspernatur provident dolor numquam voluptas omnis amet maiores ullam minima nemo nostrum earum voluptates ducimus, 
-distinctio eius neque quam quos.
-</p>
-<!-- Close skills__contents__message -->
-  </div>
-  <!-- Close skills__contents -->
+  <!-- Section Projects -->
+  <section class="projects" id="personal-projects-section">
+    <div class="container">
+      <h1 class="heading" id="personalProjectsHeading">personal projects</h1>
+      <div class="row">
+        <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
+          <div class="projects__card">
+            <div class="projects__card__image">
+              <img src="./assets/img/projects/project1.jpg"
+                alt="Image of a development project created by Adriano Díaz Benítez" id="projectCardImg1" />
+            </div>
+            <!-- Close pojects__card__image-->
+            <div class="projects__card__layer">
+              <div class="projects__card__layer__contents">
+                <h3 class="projects__card__layer__contents__title">
+                  ecommerce application
+                </h3>
+                <span class="projects__card__layer__contents__tools">
+                  nodejs, mongodb, tailwind
+                </span>
+              </div>
+              <!-- Close pojects__card__layer__contents-->
+              <div class="projects__card__layer__link">
+                <a href=""><i class="bi bi-github"></i></a>
+              </div>
+              <!-- Close pojects__card__layer__link-->
+            </div>
+            <!-- Close pojects__card__layer-->
+          </div>
+          <!-- Close pojects__card-->
+        </div>
+        <!-- Close Column -->
 
-</div>
-  <!-- Close row -->
+        <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
+          <div class="projects__card">
+            <div class="projects__card__image">
+              <img src="./assets/img/projects/project2.jpg"
+                alt="Image of a development project created by Adriano Díaz Benítez" id="projectCardImg2" />
+            </div>
+            <!-- Close pojects__card__image-->
+            <div class="projects__card__layer">
+              <div class="projects__card__layer__contents">
+                <h3 class="projects__card__layer__contents__title">
+                  social media app
+                </h3>
+                <span class="projects__card__layer__contents__tools">
+                  nodejs, vuejs, vuetify
+                </span>
+              </div>
+              <!-- Close pojects__card__layer__contents-->
+              <div class="projects__card__layer__link">
+                <a href=""><i class="bi bi-github"></i></a>
+              </div>
+              <!-- Close pojects__card__layer__link-->
+            </div>
+            <!-- Close pojects__card__layer-->
+          </div>
+          <!-- Close pojects__card-->
+        </div>
+        <!-- Close Column -->
 
-  </div>
-  <!-- Close row -->
-</div>
-</section>
-    <!-- Close Section Skills -->
+        <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
+          <div class="projects__card">
+            <div class="projects__card__image">
+              <img src="./assets/img/projects/project3.jpg"
+                alt="Image of a development project created by Adriano Díaz Benítez" id="projectCardImg3" />
+            </div>
+            <!-- Close pojects__card__image-->
+            <div class="projects__card__layer">
+              <div class="projects__card__layer__contents">
+                <h3 class="projects__card__layer__contents__title">
+                  ecommerce mobile app
+                </h3>
+                <span class="projects__card__layer__contents__tools">
+                  react, firebase, kotlin
+                </span>
+              </div>
+              <!-- Close pojects__card__layer__contents-->
+              <div class="projects__card__layer__link">
+                <a href=""><i class="bi bi-github"></i></a>
+              </div>
+              <!-- Close pojects__card__layer__link-->
+            </div>
+            <!-- Close pojects__card__layer-->
+          </div>
+          <!-- Close pojects__card-->
+        </div>
+        <!-- Close Column -->
 
-    <script src="app.js"></script>
-  </body>
+        <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
+          <div class="projects__card">
+            <div class="projects__card__image">
+              <img src="./assets/img/projects/project4.jpg"
+                alt="Image of a development project created by Adriano Díaz Benítez" id="projectCardImg4" />
+            </div>
+            <!-- Close pojects__card__image-->
+            <div class="projects__card__layer">
+              <div class="projects__card__layer__contents">
+                <h3 class="projects__card__layer__contents__title">
+                  real state app
+                </h3>
+                <span class="projects__card__layer__contents__tools">
+                  laravel, mysql, tailwind
+                </span>
+              </div>
+              <!-- Close pojects__card__layer__contents-->
+              <div class="projects__card__layer__link">
+                <a href=""><i class="bi bi-github"></i></a>
+              </div>
+              <!-- Close pojects__card__layer__link-->
+            </div>
+            <!-- Close pojects__card__layer-->
+          </div>
+          <!-- Close pojects__card-->
+        </div>
+        <!-- Close Column -->
+
+        <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
+          <div class="projects__card">
+            <div class="projects__card__image">
+              <img src="./assets/img/projects/project5.jpg"
+                alt="Image of a development project created by Adriano Díaz Benítez" id="projectCardImg5" />
+            </div>
+            <!-- Close pojects__card__image-->
+            <div class="projects__card__layer">
+              <div class="projects__card__layer__contents">
+                <h3 class="projects__card__layer__contents__title">
+                  photo sharing app
+                </h3>
+                <span class="projects__card__layer__contents__tools">
+                  nodejs, mongodb, react
+                </span>
+              </div>
+              <!-- Close pojects__card__layer__contents-->
+              <div class="projects__card__layer__link">
+                <a href=""><i class="bi bi-github"></i></a>
+              </div>
+              <!-- Close pojects__card__layer__link-->
+            </div>
+            <!-- Close pojects__card__layer-->
+          </div>
+          <!-- Close pojects__card-->
+        </div>
+        <!-- Close Column -->
+
+        <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
+          <div class="projects__card">
+            <div class="projects__card__image">
+              <img src="./assets/img/projects/project6.jpg"
+                alt="Image of a development project created by Adriano Díaz Benítez" id="projectCardImg6" />
+            </div>
+            <!-- Close pojects__card__image-->
+            <div class="projects__card__layer">
+              <div class="projects__card__layer__contents">
+                <h3 class="projects__card__layer__contents__title">
+                  restaurant application
+                </h3>
+                <span class="projects__card__layer__contents__tools">
+                  nextjs, reactjs, bootstrap
+                </span>
+              </div>
+              <!-- Close pojects__card__layer__contents-->
+              <div class="projects__card__layer__link">
+                <a href=""><i class="bi bi-github"></i></a>
+              </div>
+              <!-- Close pojects__card__layer__link-->
+            </div>
+            <!-- Close pojects__card__layer-->
+          </div>
+          <!-- Close pojects__card-->
+        </div>
+        <!-- Close Column -->
+
+        <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
+          <div class="projects__card">
+            <div class="projects__card__image">
+              <img src="./assets/img/projects/project7.jpg"
+                alt="Image of a development project created by Adriano Díaz Benítez" id="projectCardImg7" />
+            </div>
+            <!-- Close pojects__card__image-->
+            <div class="projects__card__layer">
+              <div class="projects__card__layer__contents">
+                <h3 class="projects__card__layer__contents__title">
+                  travel application
+                </h3>
+                <span class="projects__card__layer__contents__tools">
+                  php, mysql, bootstrap
+                </span>
+              </div>
+              <!-- Close pojects__card__layer__contents-->
+              <div class="projects__card__layer__link">
+                <a href=""><i class="bi bi-github"></i></a>
+              </div>
+              <!-- Close pojects__card__layer__link-->
+            </div>
+            <!-- Close pojects__card__layer-->
+          </div>
+          <!-- Close pojects__card-->
+        </div>
+        <!-- Close Column -->
+
+        <div class="col-xlg-3 col-lg-3 col-md-4 col-sm-6 col-xsm-12">
+          <div class="projects__card">
+            <div class="projects__card__image">
+              <img src="./assets/img/projects/project8.jpg"
+                alt="Image of a development project created by Adriano Díaz Benítez" id="projectCardImg8" />
+            </div>
+            <!-- Close pojects__card__image-->
+            <div class="projects__card__layer">
+              <div class="projects__card__layer__contents">
+                <h3 class="projects__card__layer__contents__title">
+                  bitcoin application
+                </h3>
+                <span class="projects__card__layer__contents__tools">
+                  python, mysql, tailwind
+                </span>
+              </div>
+              <!-- Close pojects__card__layer__contents-->
+              <div class="projects__card__layer__link">
+                <a href=""><i class="bi bi-github"></i></a>
+              </div>
+              <!-- Close pojects__card__layer__link-->
+            </div>
+            <!-- Close pojects__card__layer-->
+          </div>
+          <!-- Close pojects__card-->
+        </div>
+        <!-- Close Column -->
+
+
+      </div>
+      <!-- Close Row -->
+      </h1>
+    </div>
+  </section>
+  <!-- Close Section Projects -->
+
+  <!-- Section Skills -->
+  <section class="skills" id="home-skills-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-xlg-6 col-lg-6 col-sm-12">
+          <div class="skills__contents">
+            <h1 class="skills__contents__heading">
+              I have advanced skills in developing and programming
+            </h1>
+            <p class="skills__contents__message">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veniam, earum!
+              Aspernatur provident dolor numquam voluptas omnis amet maiores ullam minima nemo nostrum earum voluptates
+              ducimus,
+              distinctio eius neque quam quos.
+            </p>
+            <!-- Close skills__contents__message -->
+          </div>
+          <!-- Close skills__contents -->
+
+        </div>
+        <!-- Close column -->
+        <div class="col-xlg-6 col-lg-6 col-sm-12">
+
+          <div class="skills__block">
+
+            <span class="skills__block__exp">
+              6 years
+            </span>
+
+
+            <span class="skills__block__list">
+              HTML CSS JavaScript
+            </span>
+
+          </div>
+          <!-- Close skills__block -->
+
+
+        </div>
+        <!-- Close column -->
+
+      </div>
+      <!-- Close row -->
+    </div>
+  </section>
+  <!-- Close Section Skills -->
+
+  <script src="app.js"></script>
+</body>
+
 </html>
