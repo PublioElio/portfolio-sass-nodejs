@@ -740,6 +740,9 @@ body {
   }
 }
 
+.skills {
+  padding: 8rem, 0;
+}
 .container {
   width: 100%;
   max-width: 120rem;
