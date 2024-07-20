@@ -1,4 +1,4 @@
-.raleway-regular, .homeModal__wrapper__contents__p, .homeModal__wrapper__contents__block__left, .homeModal__wrapper__contents__block__right, body, .raleway-italic-regular, .raleway-italic-light, .raleway-black, .raleway-extrabold, .raleway-bold, .nav__wrapper__logo__brand, .nav__wrapper__ul__li__a, .edu-exp__card__title, .about__info__block__left, .raleway-semibold, .projects__card__layer__contents__title, .projects__card__layer__contents__tools, .raleway-medium, .projects__card__layer__link a i, .edu-exp__card__block__right, .about__info__message, .about__info__block__right, .about__info__socials__circle i, .btn, .homeHeader__data__contents__top, .homeHeader__data__contents__bottom {
+.raleway-regular, .homeModal__wrapper__contents__p, .homeModal__wrapper__contents__block__left, .homeModal__wrapper__contents__block__right, body, .raleway-italic-regular, .skills__contents__message, .raleway-italic-light, .raleway-black, .raleway-extrabold, .skills__contents__heading, .raleway-bold, .nav__wrapper__logo__brand, .nav__wrapper__ul__li__a, .edu-exp__card__title, .about__info__block__left, .raleway-semibold, .projects__card__layer__contents__title, .projects__card__layer__contents__tools, .raleway-medium, .projects__card__layer__link a i, .edu-exp__card__block__right, .about__info__message, .about__info__block__right, .about__info__socials__circle i, .btn, .homeHeader__data__contents__top, .homeHeader__data__contents__bottom {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -17,7 +17,7 @@
   font-weight: 700;
 }
 
-.raleway-extrabold {
+.raleway-extrabold, .skills__contents__heading {
   font-weight: 800;
 }
 
@@ -25,7 +25,7 @@
   font-weight: 900;
 }
 
-.raleway-italic-regular, .raleway-italic-light {
+.raleway-italic-regular, .skills__contents__message, .raleway-italic-light {
   font-weight: 400;
   font-style: italic;
 }
@@ -746,6 +746,17 @@ body {
 .skills__contents {
   width: 90%;
 }
+.skills__contents__heading {
+  font-size: 4rem;
+  color: #000;
+  line-height: 5rem;
+}
+.skills__contents__message {
+  font-size: 1.5rem;
+  color: #374151;
+  margin-top: 3rem;
+}
+
 .container {
   width: 100%;
   max-width: 120rem;

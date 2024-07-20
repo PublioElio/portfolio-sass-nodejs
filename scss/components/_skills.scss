@@ -5,7 +5,12 @@
   &__contents {
     width: 90%;
     &__heading {
-        
+      @include text-style(".raleway-extrabold", 4rem, $black);
+      line-height: 5rem;
+    }
+    &__message {
+      @include text-style(".raleway-italic-regular", 1.5rem, $gray-700);
+      margin-top: 3rem;
     }
   }
 }
